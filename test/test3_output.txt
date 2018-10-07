@@ -1,0 +1,561 @@
+/home/guignard/Documents/git/cpr_project/syncthing/venv/bin/python /home/guignard/Documents/git/cpr_project/syncthing/main.py -d /home/guignard/Documents/syncthing/ -c /home/guignard/Documents/git/cpr_project/auth/etienne/cert.pem -k /home/guignard/Documents/git/cpr_project/auth/etienne/key.pem -i 129.194.186.177 -p 22000 -v
+Device id: 6VLHB4K-T5MXNDK-FO7UGV6-GWXU3FH-PHCJJRD-PWVUAXW-L6L42HY-UBMPNQZ
+
+Connected on Syncthing node: 129.194.186.177:22000
+Device remote name:    redbox
+Client remote name:    syncthing
+Client remote version: v0.14.43
+
+[17:36:22] Received: MSG_CLUSTER_CONFIG
+Folder name:  facile
+
+Id:           0x9b74bc415f2af4a3a71f7da31f5f453e167376cf9ca95eaa6814717b10b1c7
+Name:         MacBook-Pro-de-Mehmed.local
+Addresses:    ['dynamic']
+Max sequence: 19
+Compression:  1
+Index_id:     1964189969792742209
+
+Id:           0x8278f5c61f65ca93e54c7aeb7ac04876fed1a4d970021771857fbb7510516bb
+Name:         LAPTOP-TOLC8GAH
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x11b25aab6a72d1f0bc512c6f8aee8f23cdb6f7954ae88f205ba2064b2af01ba3
+Name:         qtask-dell
+Addresses:    ['dynamic']
+Max sequence: 20
+Compression:  0
+Index_id:     3028368007869859977
+
+Id:           0x281a5f252f13b22f933ad60704f7c2147651183128edb718ef10f1ff903233ef
+Name:         ASUS-RAED
+Addresses:    ['dynamic']
+Max sequence: 16
+Compression:  1
+Index_id:     796831550937774746
+
+Id:           0x289c5188aeca677f7dc2f00683c6f6998aa318d0c0c0f530f02798c8c23adaa4
+Name:         LoicW
+Addresses:    ['dynamic']
+Max sequence: 1
+Compression:  0
+Index_id:     2493975571401302252
+
+Id:           0x2d3ed9569d909f684949ae1e37cc35ff4b5bed61aa0fdce7ca0420970941b40b
+Name:         EdouardPhilippe
+Addresses:    ['dynamic']
+Max sequence: 4
+Compression:  0
+Index_id:     11996228990144697874
+
+Id:           0x33d2ac971396fbca5bcb02609f7a214cd902469330b5934f801cd5c44533edd7
+Name:         NSA-UNDERCOVER
+Addresses:    ['dynamic']
+Max sequence: 24
+Compression:  0
+Index_id:     6830918667681274360
+
+Id:           0x37c13c0e6ae7a059a0a354b4b8088d8fe400f510d65c7a16262b2abbdb122ac2
+Name:         Cm11
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x37c42211578e2c7302ec234175226626a8e2ecf4fbd31e40777783da647628a1
+Name:         LAPTOP-STTLILN4
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x39b63468a952ab8d9d7dc8acd29fbb66c4c314c4ed80f34ebd906c2f5b95cc8a
+Name:         Claudio's BEP client
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  1
+Index_id:     0
+
+Id:           0x3eae6628380b43a65684586e9d99413166bc0195c54d56fd832192a84d1f948a
+Name:         Clairminator
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x4045a42df514031104f4e03405bb8cb152a78461cda82c87f6c7c898811b7c21
+Name:         MBP-Matthieu.local
+Addresses:    ['dynamic']
+Max sequence: 4
+Compression:  0
+Index_id:     3104386223537507917
+
+Id:           0x42f3a324266f063fd1b45ea50949fc4d63e7fca4005a88ea57fab19bb7214353
+Name:         Gabi
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  1
+Index_id:     0
+
+Id:           0x43c0c0acab8b203a13188a50fc8c91f9461c7395ec16861dad10a24574fc34fd
+Name:         MacBook-Air-de-FrancoisEichinger.local
+Addresses:    ['dynamic']
+Max sequence: 12
+Compression:  1
+Index_id:     12743712046944108550
+
+Id:           0x4f94d31a5d795749195c593b590a915e4b53bcd4ca3ddf52b6f7483e8502ef48
+Name:         redbox
+Addresses:    ['dynamic']
+Max sequence: 15
+Compression:  0
+Index_id:     5394475830933839874
+
+Id:           0x544732206c8e50782cc06589d1394936198b960b51c2dfab1be5306a42524d46
+Name:         MichelLazeyras
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  1
+Index_id:     0
+
+Id:           0x59f7e344a739065dfb341519322135a0f4958326327aa25c1e6d2e6b1f4d6cee
+Name:         Hikarou
+Addresses:    ['dynamic']
+Max sequence: 40
+Compression:  0
+Index_id:     17578215392083808025
+
+Id:           0x5e2b28e7da8528b54379b3950d0d96618120e564d633056c258f5cab878f6968
+Name:         DESKTOP-AR7HJLQ
+Addresses:    ['dynamic']
+Max sequence: 12
+Compression:  1
+Index_id:     1089334800720176222
+
+Id:           0x629782a0f516e78eca9637cbf551badec5f1efef19939c5f5a10622711549c80
+Name:         Emanuel-MACron.local
+Addresses:    ['dynamic']
+Max sequence: 8
+Compression:  0
+Index_id:     12021842981464207282
+
+Id:           0x66616c4ac17c4ca1133b5d52b9df07a5b0f334de49784e703bcf84321f640256
+Name:         MacBook-Pro-de-Selement.local
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x6a2467b6e032ded3ffcf9d7c25bdc74d036026c2a6e7ff1de93fc0b10d8f66fe
+Name:         ROOTKIT-PC
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x770ec3d825cdd6c7a90011685a1bd9d0a901ac792903888e53fb653ef1e700f3
+Name:         DESKTOP-3139OTM
+Addresses:    ['dynamic']
+Max sequence: 11
+Compression:  0
+Index_id:     8455202637333851418
+
+Id:           0x80459a76f9c8efce0c2181d4305896658d275aa6f6b82c3feb5b4d1f1c20a507
+Name:         Kameleo
+Addresses:    ['dynamic']
+Max sequence: 12
+Compression:  0
+Index_id:     11495971469413414037
+
+Id:           0x8a2e74fca94d0e41b1e311b3860305871bab1523dee0bdc22e53f535929788f3
+Name:         Maxime MBPr
+Addresses:    ['dynamic']
+Max sequence: 12
+Compression:  0
+Index_id:     9361150236929408863
+
+Id:           0x942811d6d89a522eaba2c1b31a583a29f4133665b652aa92150c5c85d120dc00
+Name:         dylan-Aspire
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x9cd611819088c705e82e0e8510538cff66d76455d3937753ef9f7dfc4327d5da
+Name:         MacBook-Pro-de-Orphee.local
+Addresses:    ['dynamic']
+Max sequence: 5
+Compression:  0
+Index_id:     16337974706520576296
+
+Id:           0xa3196ec35c56ed00e953ce19d5f716ec123ace956483ff1ee0bb548a70513d7d
+Name:         DESKTOP-ADI71PT
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0xc39017c886df5198973ff195cd1bb07aaea9edbca278ec50eda239c6a1dfec11
+Name:         T430
+Addresses:    ['dynamic']
+Max sequence: 22
+Compression:  0
+Index_id:     550141722040387497
+
+Id:           0xc626e75d26a90d1fe947a835f7a21dfcceb03f10230e311099bb0cb4b6f8f309
+Name:         AX-Biquet
+Addresses:    ['dynamic']
+Max sequence: 36
+Compression:  0
+Index_id:     16287214199778611948
+
+Id:           0xc8f21a5d4b80cfc5e85836ce2a7e48b9ad3ae18023a2188b96093d5c4beef56f
+Name:         Foebus
+Addresses:    ['dynamic']
+Max sequence: 12
+Compression:  0
+Index_id:     9611176208840860474
+
+Id:           0xd4d1a32341bc0023a009c43040378c169b2e55a15ed711b1ac10c8a95c3cb655
+Name:         claudio-acer
+Addresses:    ['dynamic']
+Max sequence: 8
+Compression:  0
+Index_id:     14290170389327166154
+
+Id:           0xd959cdce1232a3cf00c3b50a47de31cb6f63eb2072270d4806e366103a769c6d
+Name:         Macintosh-2.local
+Addresses:    ['dynamic']
+Max sequence: 16
+Compression:  0
+Index_id:     5189098252665221266
+
+Id:           0xdfc5dc732bf57e8d638b4541f33c5dadc0a170555816e6af5c582b88cb37323b
+Name:         TPRESEAU
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0xea7fa865acdfde71e0e2df28eba30df7eaea5f0e22f594d9182c316ee361df63
+Name:         HOM
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  1
+Index_id:     0
+
+Id:           0xf55670f153eb2ed195dfa1abe35af4d95e7125311bed5a02ebf2f9a3e28163db
+Name:         cpr_project
+Addresses:    ['dynamic']
+Max sequence: 16
+Compression:  1
+Index_id:     15320181351144413815
+
+Id:           0xfb1893a3fbc273dbd7981631897ba9855461c367c8eff5d30d25962195987d28
+Name:         Gonzales David
+Addresses:    ['dynamic']
+Max sequence: 9
+Compression:  0
+Index_id:     0
+
+Id:           0xfc781fe008b30254480e749ba3b512014ff67fd6b71e1c2d99f5827644abc22f
+Name:         MacBook-Pro-de-Nathanael.local
+Addresses:    ['dynamic']
+Max sequence: 43
+Compression:  0
+Index_id:     6538662758718355125
+
+Folder name:  moins_facile
+
+Id:           0x9b74bc415f2af4a3a71f7da31f5f453e167376cf9ca95eaa6814717b10b1c7
+Name:         MacBook-Pro-de-Mehmed.local
+Addresses:    ['dynamic']
+Max sequence: 5852
+Compression:  1
+Index_id:     6599227250613471643
+
+Id:           0x8278f5c61f65ca93e54c7aeb7ac04876fed1a4d970021771857fbb7510516bb
+Name:         LAPTOP-TOLC8GAH
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x11b25aab6a72d1f0bc512c6f8aee8f23cdb6f7954ae88f205ba2064b2af01ba3
+Name:         qtask-dell
+Addresses:    ['dynamic']
+Max sequence: 9080
+Compression:  0
+Index_id:     487238380400136659
+
+Id:           0x281a5f252f13b22f933ad60704f7c2147651183128edb718ef10f1ff903233ef
+Name:         ASUS-RAED
+Addresses:    ['dynamic']
+Max sequence: 1194
+Compression:  1
+Index_id:     2620867748725809789
+
+Id:           0x289c5188aeca677f7dc2f00683c6f6998aa318d0c0c0f530f02798c8c23adaa4
+Name:         LoicW
+Addresses:    ['dynamic']
+Max sequence: 11726
+Compression:  0
+Index_id:     3530539266058978394
+
+Id:           0x2d3ed9569d909f684949ae1e37cc35ff4b5bed61aa0fdce7ca0420970941b40b
+Name:         EdouardPhilippe
+Addresses:    ['dynamic']
+Max sequence: 1434
+Compression:  0
+Index_id:     4231796160897565955
+
+Id:           0x33d2ac971396fbca5bcb02609f7a214cd902469330b5934f801cd5c44533edd7
+Name:         NSA-UNDERCOVER
+Addresses:    ['dynamic']
+Max sequence: 10798
+Compression:  0
+Index_id:     3138582563684184797
+
+Id:           0x37c13c0e6ae7a059a0a354b4b8088d8fe400f510d65c7a16262b2abbdb122ac2
+Name:         Cm11
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x37c42211578e2c7302ec234175226626a8e2ecf4fbd31e40777783da647628a1
+Name:         LAPTOP-STTLILN4
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x39b63468a952ab8d9d7dc8acd29fbb66c4c314c4ed80f34ebd906c2f5b95cc8a
+Name:         Claudio's BEP client
+Addresses:    ['dynamic']
+Max sequence: 2194
+Compression:  1
+Index_id:     0
+
+Id:           0x3eae6628380b43a65684586e9d99413166bc0195c54d56fd832192a84d1f948a
+Name:         Clairminator
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x4045a42df514031104f4e03405bb8cb152a78461cda82c87f6c7c898811b7c21
+Name:         MBP-Matthieu.local
+Addresses:    ['dynamic']
+Max sequence: 1194
+Compression:  0
+Index_id:     8178895586102978026
+
+Id:           0x42f3a324266f063fd1b45ea50949fc4d63e7fca4005a88ea57fab19bb7214353
+Name:         Gabi
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  1
+Index_id:     0
+
+Id:           0x43c0c0acab8b203a13188a50fc8c91f9461c7395ec16861dad10a24574fc34fd
+Name:         MacBook-Air-de-FrancoisEichinger.local
+Addresses:    ['dynamic']
+Max sequence: 2366
+Compression:  1
+Index_id:     1598737829362423326
+
+Id:           0x4f94d31a5d795749195c593b590a915e4b53bcd4ca3ddf52b6f7483e8502ef48
+Name:         redbox
+Addresses:    ['dynamic']
+Max sequence: 2657
+Compression:  0
+Index_id:     18105166143123062981
+
+Id:           0x544732206c8e50782cc06589d1394936198b960b51c2dfab1be5306a42524d46
+Name:         MichelLazeyras
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  1
+Index_id:     0
+
+Id:           0x59f7e344a739065dfb341519322135a0f4958326327aa25c1e6d2e6b1f4d6cee
+Name:         Hikarou
+Addresses:    ['dynamic']
+Max sequence: 15630
+Compression:  0
+Index_id:     6134787295431934655
+
+Id:           0x5e2b28e7da8528b54379b3950d0d96618120e564d633056c258f5cab878f6968
+Name:         DESKTOP-AR7HJLQ
+Addresses:    ['dynamic']
+Max sequence: 6478
+Compression:  1
+Index_id:     3815840179499217782
+
+Id:           0x629782a0f516e78eca9637cbf551badec5f1efef19939c5f5a10622711549c80
+Name:         Emanuel-MACron.local
+Addresses:    ['dynamic']
+Max sequence: 2626
+Compression:  0
+Index_id:     15626653415254112791
+
+Id:           0x66616c4ac17c4ca1133b5d52b9df07a5b0f334de49784e703bcf84321f640256
+Name:         MacBook-Pro-de-Selement.local
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x6a2467b6e032ded3ffcf9d7c25bdc74d036026c2a6e7ff1de93fc0b10d8f66fe
+Name:         ROOTKIT-PC
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x770ec3d825cdd6c7a90011685a1bd9d0a901ac792903888e53fb653ef1e700f3
+Name:         DESKTOP-3139OTM
+Addresses:    ['dynamic']
+Max sequence: 2506
+Compression:  0
+Index_id:     83350663182429674
+
+Id:           0x80459a76f9c8efce0c2181d4305896658d275aa6f6b82c3feb5b4d1f1c20a507
+Name:         Kameleo
+Addresses:    ['dynamic']
+Max sequence: 3581
+Compression:  0
+Index_id:     8411231839619585228
+
+Id:           0x8a2e74fca94d0e41b1e311b3860305871bab1523dee0bdc22e53f535929788f3
+Name:         Maxime MBPr
+Addresses:    ['dynamic']
+Max sequence: 1194
+Compression:  0
+Index_id:     12537012819356856114
+
+Id:           0x942811d6d89a522eaba2c1b31a583a29f4133665b652aa92150c5c85d120dc00
+Name:         dylan-Aspire
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0x9cd611819088c705e82e0e8510538cff66d76455d3937753ef9f7dfc4327d5da
+Name:         MacBook-Pro-de-Orphee.local
+Addresses:    ['dynamic']
+Max sequence: 1439
+Compression:  0
+Index_id:     15311041725102384942
+
+Id:           0xa3196ec35c56ed00e953ce19d5f716ec123ace956483ff1ee0bb548a70513d7d
+Name:         DESKTOP-ADI71PT
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0xc39017c886df5198973ff195cd1bb07aaea9edbca278ec50eda239c6a1dfec11
+Name:         T430
+Addresses:    ['dynamic']
+Max sequence: 8244
+Compression:  0
+Index_id:     16013723294224802086
+
+Id:           0xc626e75d26a90d1fe947a835f7a21dfcceb03f10230e311099bb0cb4b6f8f309
+Name:         AX-Biquet
+Addresses:    ['dynamic']
+Max sequence: 14566
+Compression:  0
+Index_id:     16046735908522793274
+
+Id:           0xc8f21a5d4b80cfc5e85836ce2a7e48b9ad3ae18023a2188b96093d5c4beef56f
+Name:         Foebus
+Addresses:    ['dynamic']
+Max sequence: 6627
+Compression:  0
+Index_id:     6088043716483311519
+
+Id:           0xd4d1a32341bc0023a009c43040378c169b2e55a15ed711b1ac10c8a95c3cb655
+Name:         claudio-acer
+Addresses:    ['dynamic']
+Max sequence: 2512
+Compression:  0
+Index_id:     1403779287524532025
+
+Id:           0xd959cdce1232a3cf00c3b50a47de31cb6f63eb2072270d4806e366103a769c6d
+Name:         Macintosh-2.local
+Addresses:    ['dynamic']
+Max sequence: 4612
+Compression:  0
+Index_id:     11440423233468734082
+
+Id:           0xdfc5dc732bf57e8d638b4541f33c5dadc0a170555816e6af5c582b88cb37323b
+Name:         TPRESEAU
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  0
+Index_id:     0
+
+Id:           0xea7fa865acdfde71e0e2df28eba30df7eaea5f0e22f594d9182c316ee361df63
+Name:         HOM
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  1
+Index_id:     0
+
+Id:           0xf55670f153eb2ed195dfa1abe35af4d95e7125311bed5a02ebf2f9a3e28163db
+Name:         cpr_project
+Addresses:    ['dynamic']
+Max sequence: 5477
+Compression:  1
+Index_id:     10845463575018015969
+
+Id:           0xfb1893a3fbc273dbd7981631897ba9855461c367c8eff5d30d25962195987d28
+Name:         Gonzales David
+Addresses:    ['dynamic']
+Max sequence: 2388
+Compression:  0
+Index_id:     0
+
+Id:           0xfc781fe008b30254480e749ba3b512014ff67fd6b71e1c2d99f5827644abc22f
+Name:         MacBook-Pro-de-Nathanael.local
+Addresses:    ['dynamic']
+Max sequence: 12975
+Compression:  0
+Index_id:     8661842672657907419
+
+[17:36:22] Received: MSG_INDEX
+Folder name:        facile
+
+File name:          platform.py
+File name:          platform.pyc
+File name:          plistlib.py
+File name:          plistlib.pyc
+File name:          .platform.py.swp
+File name:          .DS_Store
+File name:          facile
+[17:36:22] Begin request block for file: /home/guignard/Documents/syncthing/facile/platform.py
+[17:36:22] End request block for file: /home/guignard/Documents/syncthing/facile/platform.py
+[17:36:22] Begin request block for file: /home/guignard/Documents/syncthing/facile/platform.pyc
+[17:36:22] End request block for file: /home/guignard/Documents/syncthing/facile/platform.pyc
+[17:36:22] Begin request block for file: /home/guignard/Documents/syncthing/facile/plistlib.py
+[17:36:22] End request block for file: /home/guignard/Documents/syncthing/facile/plistlib.py
+[17:36:22] Begin request block for file: /home/guignard/Documents/syncthing/facile/plistlib.pyc
+[17:36:22] End request block for file: /home/guignard/Documents/syncthing/facile/plistlib.pyc
+[17:36:22] Received: MSG_RESPONSE
+[17:36:22] Receive all block for file: /home/guignard/Documents/syncthing/facile/platform.py
+[17:36:22] Received: MSG_RESPONSE
+[17:36:22] Receive all block for file: /home/guignard/Documents/syncthing/facile/platform.pyc
+[17:36:23] Received: MSG_RESPONSE
+[17:36:23] Receive all block for file: /home/guignard/Documents/syncthing/facile/plistlib.py
+[17:36:23] Received: MSG_RESPONSE
+[17:36:23] Receive all block for file: /home/guignard/Documents/syncthing/facile/plistlib.pyc
+[17:37:52] Received: MSG_PING
+[17:37:52] Sent: MSG_PING
+[17:39:22] Received: MSG_PING
+[17:39:22] Sent: MSG_PING

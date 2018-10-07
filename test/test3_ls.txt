@@ -1,0 +1,14 @@
+guignard@YOGRAC:~/Documents/syncthing$ pwd
+/home/guignard/Documents/syncthing
+guignard@YOGRAC:~/Documents/syncthing$ ls -R -l
+.:
+total 4
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:36 facile
+
+./facile:
+total 128
+-rw-r--r-- 1 guignard guignard 52608 oct 20 09:36 platform.py
+-rw-r--r-- 1 guignard guignard 37720 oct 20 09:36 platform.pyc
+-rw-r--r-- 1 guignard guignard 15185 oct 20 09:36 plistlib.py
+-rw-r--r-- 1 guignard guignard 19123 oct 20 09:36 plistlib.pyc
+guignard@YOGRAC:~/Documents/syncthing$

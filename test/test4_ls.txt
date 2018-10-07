@@ -1,0 +1,1555 @@
+guignard@YOGRAC:~/Documents/syncthing$ pwd
+/home/guignard/Documents/syncthing
+guignard@YOGRAC:~/Documents/syncthing$ ls -R -l
+.:
+total 12
+drwxr-xr-x 14 guignard guignard 12288 jan 26 17:46 moins_facile
+
+./moins_facile:
+total 73396
+drwxr-xr-x  2 guignard guignard     4096 jan 26 17:41 audit
+drwxr-xr-x  2 guignard guignard     4096 jan 26 17:41 avahi
+drwxr-xr-x  2 guignard guignard     4096 jan 26 17:41 coreutils
+drwxr-xr-x  2 guignard guignard     4096 jan 26 17:41 engines-1.1
+drwxr-xr-x  2 guignard guignard    12288 jan 26 17:42 gconv
+drwxr-xr-x  3 guignard guignard     4096 jan 26 17:41 krb5
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:46 libapt-inst.so.2.0 -> /home/guignard/Documents/syncthing/moins_facile/libapt-inst.so.2.0.0
+-rw-r--r--  1 guignard guignard    51280 oct 20 09:46 libapt-inst.so.2.0.0
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:46 libapt-pkg.so.5.0 -> /home/guignard/Documents/syncthing/moins_facile/libapt-pkg.so.5.0.1
+-rw-r--r--  1 guignard guignard  1776872 oct 20 09:46 libapt-pkg.so.5.0.1
+lrwxrwxrwx  1 guignard guignard       71 jan 26 17:41 libapt-private.so.0.0 -> /home/guignard/Documents/syncthing/moins_facile/libapt-private.so.0.0.0
+-rw-r--r--  1 guignard guignard   378968 oct 20 09:46 libapt-private.so.0.0.0
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:46 libassuan.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libassuan.so.0.7.3
+-rw-r--r--  1 guignard guignard    75928 oct 20 09:46 libassuan.so.0.7.3
+lrwxrwxrwx  1 guignard guignard       72 jan 26 17:46 libavahi-common.so.3 -> /home/guignard/Documents/syncthing/moins_facile/libavahi-common.so.3.5.3
+-rw-r--r--  1 guignard guignard    52432 oct 20 09:46 libavahi-common.so.3.5.3
+lrwxrwxrwx  1 guignard guignard       70 jan 26 17:46 libavahi-core.so.7 -> /home/guignard/Documents/syncthing/moins_facile/libavahi-core.so.7.0.2
+-rw-r--r--  1 guignard guignard   221928 oct 20 09:46 libavahi-core.so.7.0.2
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:46 libbind9.so.140 -> /home/guignard/Documents/syncthing/moins_facile/libbind9.so.140.0.10
+-rw-r--r--  1 guignard guignard    59304 oct 20 09:46 libbind9.so.140.0.10
+-rw-r--r--  1 guignard guignard  2492224 oct 20 09:46 libcrypto.so.1.0.2
+-rw-r--r--  1 guignard guignard  2686672 oct 20 09:46 libcrypto.so.1.1
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:46 libcurl-gnutls.so.3 -> /home/guignard/Documents/syncthing/moins_facile/libcurl-gnutls.so.4
+lrwxrwxrwx  1 guignard guignard       71 jan 26 17:46 libcurl-gnutls.so.4 -> /home/guignard/Documents/syncthing/moins_facile/libcurl-gnutls.so.4.4.0
+-rw-r--r--  1 guignard guignard   518560 oct 20 09:46 libcurl-gnutls.so.4.4.0
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:46 libdaemon.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libdaemon.so.0.5.0
+-rw-r--r--  1 guignard guignard    27120 oct 20 09:46 libdaemon.so.0.5.0
+-rw-r--r--  1 guignard guignard  1827512 oct 20 09:46 libdb-5.3.so
+lrwxrwxrwx  1 guignard guignard       73 jan 26 17:46 libdebconfclient.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libdebconfclient.so.0.0.0
+-rw-r--r--  1 guignard guignard    10360 oct 20 09:46 libdebconfclient.so.0.0.0
+lrwxrwxrwx  1 guignard guignard       72 jan 26 17:46 libdns-pkcs11.so.162 -> /home/guignard/Documents/syncthing/moins_facile/libdns-pkcs11.so.162.1.3
+-rw-r--r--  1 guignard guignard  2090400 oct 20 09:46 libdns-pkcs11.so.162.1.3
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:46 libdns.so.162 -> /home/guignard/Documents/syncthing/moins_facile/libdns.so.162.1.3
+-rw-r--r--  1 guignard guignard  2065344 oct 20 09:46 libdns.so.162.1.3
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:46 libedit.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libedit.so.2.0.55
+-rw-r--r--  1 guignard guignard   212656 oct 20 09:46 libedit.so.2.0.55
+-rw-r--r--  1 guignard guignard    96896 oct 20 09:46 libelf-0.168.so
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:46 libelf.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libelf-0.168.so
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:46 libestr.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libestr.so.0.0.0
+-rw-r--r--  1 guignard guignard    14432 oct 20 09:46 libestr.so.0.0.0
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:46 libexpatw.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libexpatw.so.1.6.2
+-rw-r--r--  1 guignard guignard   170128 oct 20 09:46 libexpatw.so.1.6.2
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:46 libfam.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libfam.so.0.0.0
+-rw-r--r--  1 guignard guignard    35520 oct 20 09:46 libfam.so.0.0.0
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:46 libfastjson.so.4 -> /home/guignard/Documents/syncthing/moins_facile/libfastjson.so.4.0.0
+-rw-r--r--  1 guignard guignard    39376 oct 20 09:46 libfastjson.so.4.0.0
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:46 libffi.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libffi.so.6.0.4
+-rw-r--r--  1 guignard guignard    35296 oct 20 09:46 libffi.so.6.0.4
+lrwxrwxrwx  1 guignard guignard       62 jan 26 17:46 libform.so.5 -> /home/guignard/Documents/syncthing/moins_facile/libform.so.5.9
+-rw-r--r--  1 guignard guignard    64712 oct 20 09:46 libform.so.5.9
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:46 libformw.so.5 -> /home/guignard/Documents/syncthing/moins_facile/libformw.so.5.9
+-rw-r--r--  1 guignard guignard    68840 oct 20 09:46 libformw.so.5.9
+lrwxrwxrwx  1 guignard guignard       69 jan 26 17:46 libfreetype.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libfreetype.so.6.12.3
+-rw-r--r--  1 guignard guignard   716728 oct 20 09:46 libfreetype.so.6.12.3
+lrwxrwxrwx  1 guignard guignard       71 jan 26 17:46 libgdbm_compat.so.3 -> /home/guignard/Documents/syncthing/moins_facile/libgdbm_compat.so.3.0.0
+-rw-r--r--  1 guignard guignard    10160 oct 20 09:46 libgdbm_compat.so.3.0.0
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:46 libgdbm.so.3 -> /home/guignard/Documents/syncthing/moins_facile/libgdbm.so.3.0.0
+-rw-r--r--  1 guignard guignard    26912 oct 20 09:46 libgdbm.so.3.0.0
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:46 libGeoIP.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libGeoIP.so.1.6.9
+-rw-r--r--  1 guignard guignard   202936 oct 20 09:46 libGeoIP.so.1.6.9
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:46 libgmp.so.10 -> /home/guignard/Documents/syncthing/moins_facile/libgmp.so.10.3.2
+-rw-r--r--  1 guignard guignard   537448 oct 20 09:46 libgmp.so.10.3.2
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:46 libgnutls.so.30 -> /home/guignard/Documents/syncthing/moins_facile/libgnutls.so.30.13.1
+-rw-r--r--  1 guignard guignard  1670752 oct 20 09:46 libgnutls.so.30.13.1
+-rw-r--r--  1 guignard guignard    23056 oct 20 09:46 libgpm.so.2
+lrwxrwxrwx  1 guignard guignard       69 jan 26 17:46 libgssapi_krb5.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libgssapi_krb5.so.2.2
+-rw-r--r--  1 guignard guignard   305688 oct 20 09:46 libgssapi_krb5.so.2.2
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:46 libhogweed.so.4 -> /home/guignard/Documents/syncthing/moins_facile/libhogweed.so.4.3
+-rw-r--r--  1 guignard guignard   216776 oct 20 09:46 libhogweed.so.4.3
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:46 libicudata.so.57 -> /home/guignard/Documents/syncthing/moins_facile/libicudata.so.57.1
+-rw-r--r--  1 guignard guignard 25675624 oct 20 09:46 libicudata.so.57.1
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:46 libicui18n.so.57 -> /home/guignard/Documents/syncthing/moins_facile/libicui18n.so.57.1
+-rw-r--r--  1 guignard guignard  2591816 oct 20 09:46 libicui18n.so.57.1
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:46 libicuio.so.57 -> /home/guignard/Documents/syncthing/moins_facile/libicuio.so.57.1
+-rw-r--r--  1 guignard guignard    56048 oct 20 09:46 libicuio.so.57.1
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libicule.so.57 -> /home/guignard/Documents/syncthing/moins_facile/libicule.so.57.1
+-rw-r--r--  1 guignard guignard   350488 oct 20 09:46 libicule.so.57.1
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libiculx.so.57 -> /home/guignard/Documents/syncthing/moins_facile/libiculx.so.57.1
+-rw-r--r--  1 guignard guignard    47576 oct 20 09:46 libiculx.so.57.1
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:41 libicutest.so.57 -> /home/guignard/Documents/syncthing/moins_facile/libicutest.so.57.1
+-rw-r--r--  1 guignard guignard    65800 oct 20 09:46 libicutest.so.57.1
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libicutu.so.57 -> /home/guignard/Documents/syncthing/moins_facile/libicutu.so.57.1
+-rw-r--r--  1 guignard guignard   201280 oct 20 09:46 libicutu.so.57.1
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libicuuc.so.57 -> /home/guignard/Documents/syncthing/moins_facile/libicuuc.so.57.1
+-rw-r--r--  1 guignard guignard  1727216 oct 20 09:46 libicuuc.so.57.1
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libidn2.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libidn2.so.0.1.4
+-rw-r--r--  1 guignard guignard   137208 oct 20 09:46 libidn2.so.0.1.4
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:41 libip4tc.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libip4tc.so.0.1.0
+-rw-r--r--  1 guignard guignard    27088 oct 20 09:46 libip4tc.so.0.1.0
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:41 libip6tc.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libip6tc.so.0.1.0
+-rw-r--r--  1 guignard guignard    31184 oct 20 09:46 libip6tc.so.0.1.0
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libiptc.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libiptc.so.0.0.0
+-rw-r--r--  1 guignard guignard     5832 oct 20 09:46 libiptc.so.0.0.0
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 libisccc.so.140 -> /home/guignard/Documents/syncthing/moins_facile/libisccc.so.140.0.4
+-rw-r--r--  1 guignard guignard    39136 oct 20 09:46 libisccc.so.140.0.4
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:41 libisccfg.so.140 -> /home/guignard/Documents/syncthing/moins_facile/libisccfg.so.140.3.0
+-rw-r--r--  1 guignard guignard   159128 oct 20 09:46 libisccfg.so.140.3.0
+lrwxrwxrwx  1 guignard guignard       72 jan 26 17:41 libisc-pkcs11.so.160 -> /home/guignard/Documents/syncthing/moins_facile/libisc-pkcs11.so.160.0.0
+-rw-r--r--  1 guignard guignard   467000 oct 20 09:46 libisc-pkcs11.so.160.0.0
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:41 libisc.so.160 -> /home/guignard/Documents/syncthing/moins_facile/libisc.so.160.0.0
+-rw-r--r--  1 guignard guignard   475192 oct 20 09:46 libisc.so.160.0.0
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:41 libk5crypto.so.3 -> /home/guignard/Documents/syncthing/moins_facile/libk5crypto.so.3.1
+-rw-r--r--  1 guignard guignard   203656 oct 20 09:46 libk5crypto.so.3.1
+lrwxrwxrwx  1 guignard guignard       62 jan 26 17:41 libkrb5.so.3 -> /home/guignard/Documents/syncthing/moins_facile/libkrb5.so.3.3
+-rw-r--r--  1 guignard guignard   892616 oct 20 09:46 libkrb5.so.3.3
+lrwxrwxrwx  1 guignard guignard       69 jan 26 17:41 libkrb5support.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libkrb5support.so.0.1
+-rw-r--r--  1 guignard guignard    48152 oct 20 09:46 libkrb5support.so.0.1
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:41 libksba.so.8 -> /home/guignard/Documents/syncthing/moins_facile/libksba.so.8.11.6
+-rw-r--r--  1 guignard guignard   227344 oct 20 09:46 libksba.so.8.11.6
+lrwxrwxrwx  1 guignard guignard       69 jan 26 17:41 liblber-2.4.so.2 -> /home/guignard/Documents/syncthing/moins_facile/liblber-2.4.so.2.10.7
+-rw-r--r--  1 guignard guignard    59576 oct 20 09:46 liblber-2.4.so.2.10.7
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:41 libldap-2.4.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libldap_r-2.4.so.2
+lrwxrwxrwx  1 guignard guignard       71 jan 26 17:41 libldap_r-2.4.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libldap_r-2.4.so.2.10.7
+-rw-r--r--  1 guignard guignard   322896 oct 20 09:46 libldap_r-2.4.so.2.10.7
+lrwxrwxrwx  1 guignard guignard       74 jan 26 17:41 liblogging-stdlog.so.0 -> /home/guignard/Documents/syncthing/moins_facile/liblogging-stdlog.so.0.0.0
+-rw-r--r--  1 guignard guignard    18664 oct 20 09:46 liblogging-stdlog.so.0.0.0
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 liblognorm.so.5 -> /home/guignard/Documents/syncthing/moins_facile/liblognorm.so.5.0.0
+-rw-r--r--  1 guignard guignard   138352 oct 20 09:46 liblognorm.so.5.0.0
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 liblwres.so.141 -> /home/guignard/Documents/syncthing/moins_facile/liblwres.so.141.0.3
+-rw-r--r--  1 guignard guignard    75712 oct 20 09:46 liblwres.so.141.0.3
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:41 liblz4.so.1 -> /home/guignard/Documents/syncthing/moins_facile/liblz4.so.1.7.1
+-rw-r--r--  1 guignard guignard    72024 oct 20 09:46 liblz4.so.1.7.1
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:41 libmagic.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libmagic.so.1.0.0
+-rw-r--r--  1 guignard guignard   137448 oct 20 09:46 libmagic.so.1.0.0
+lrwxrwxrwx  1 guignard guignard       62 jan 26 17:41 libmenu.so.5 -> /home/guignard/Documents/syncthing/moins_facile/libmenu.so.5.9
+-rw-r--r--  1 guignard guignard    35088 oct 20 09:46 libmenu.so.5.9
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:41 libmenuw.so.5 -> /home/guignard/Documents/syncthing/moins_facile/libmenuw.so.5.9
+-rw-r--r--  1 guignard guignard    35088 oct 20 09:46 libmenuw.so.5.9
+lrwxrwxrwx  1 guignard guignard       79 jan 26 17:41 libnetfilter_conntrack.so.3 -> /home/guignard/Documents/syncthing/moins_facile/libnetfilter_conntrack.so.3.6.0
+-rw-r--r--  1 guignard guignard   121480 oct 20 09:46 libnetfilter_conntrack.so.3.6.0
+lrwxrwxrwx  1 guignard guignard       73 jan 26 17:41 libnetsnmpagent.so.30 -> /home/guignard/Documents/syncthing/moins_facile/libnetsnmpagent.so.30.0.3
+-rw-r--r--  1 guignard guignard   440520 oct 20 09:46 libnetsnmpagent.so.30.0.3
+lrwxrwxrwx  1 guignard guignard       75 jan 26 17:41 libnetsnmphelpers.so.30 -> /home/guignard/Documents/syncthing/moins_facile/libnetsnmphelpers.so.30.0.3
+-rw-r--r--  1 guignard guignard     5904 oct 20 09:46 libnetsnmphelpers.so.30.0.3
+lrwxrwxrwx  1 guignard guignard       72 jan 26 17:41 libnetsnmpmibs.so.30 -> /home/guignard/Documents/syncthing/moins_facile/libnetsnmpmibs.so.30.0.3
+-rw-r--r--  1 guignard guignard  1436720 oct 20 09:46 libnetsnmpmibs.so.30.0.3
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:41 libnetsnmp.so.30 -> /home/guignard/Documents/syncthing/moins_facile/libnetsnmp.so.30.0.3
+-rw-r--r--  1 guignard guignard   709592 oct 20 09:46 libnetsnmp.so.30.0.3
+lrwxrwxrwx  1 guignard guignard       73 jan 26 17:41 libnetsnmptrapd.so.30 -> /home/guignard/Documents/syncthing/moins_facile/libnetsnmptrapd.so.30.0.3
+-rw-r--r--  1 guignard guignard    56408 oct 20 09:46 libnetsnmptrapd.so.30.0.3
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libnettle.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libnettle.so.6.3
+-rw-r--r--  1 guignard guignard   224504 oct 20 09:46 libnettle.so.6.3
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:41 libnewt.so.0.52 -> /home/guignard/Documents/syncthing/moins_facile/libnewt.so.0.52.19
+-rw-r--r--  1 guignard guignard    98280 oct 20 09:46 libnewt.so.0.52.19
+lrwxrwxrwx  1 guignard guignard       69 jan 26 17:41 libnfnetlink.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libnfnetlink.so.0.2.0
+-rw-r--r--  1 guignard guignard    26392 oct 20 09:46 libnfnetlink.so.0.2.0
+lrwxrwxrwx  1 guignard guignard       69 jan 26 17:41 libnghttp2.so.14 -> /home/guignard/Documents/syncthing/moins_facile/libnghttp2.so.14.12.3
+-rw-r--r--  1 guignard guignard   153640 oct 20 09:46 libnghttp2.so.14.12.3
+lrwxrwxrwx  1 guignard guignard       73 jan 26 17:41 libnl-route-3.so.200 -> /home/guignard/Documents/syncthing/moins_facile/libnl-route-3.so.200.22.0
+-rw-r--r--  1 guignard guignard   411712 oct 20 09:46 libnl-route-3.so.200.22.0
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libnpth.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libnpth.so.0.0.6
+-rw-r--r--  1 guignard guignard    18928 oct 20 09:46 libnpth.so.0.0.6
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:41 libopensc.so.4 -> /home/guignard/Documents/syncthing/moins_facile/libopensc.so.4.0.0
+-rw-r--r--  1 guignard guignard  1776400 oct 20 09:46 libopensc.so.4.0.0
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 libp11-kit.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libp11-kit.so.0.2.0
+-rw-r--r--  1 guignard guignard   411688 oct 20 09:46 libp11-kit.so.0.2.0
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:41 libpanel.so.5 -> /home/guignard/Documents/syncthing/moins_facile/libpanel.so.5.9
+-rw-r--r--  1 guignard guignard    14184 oct 20 09:46 libpanel.so.5.9
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libpanelw.so.5 -> /home/guignard/Documents/syncthing/moins_facile/libpanelw.so.5.9
+-rw-r--r--  1 guignard guignard    14184 oct 20 09:46 libpanelw.so.5.9
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libpcap.so.0.8 -> /home/guignard/Documents/syncthing/moins_facile/libpcap.so.1.8.1
+-rw-r--r--  1 guignard guignard   269800 oct 20 09:46 libpcap.so.1.8.1
+lrwxrwxrwx  1 guignard guignard       70 jan 26 17:41 libpcreposix.so.3 -> /home/guignard/Documents/syncthing/moins_facile/libpcreposix.so.3.13.3
+-rw-r--r--  1 guignard guignard    10128 oct 20 09:46 libpcreposix.so.3.13.3
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:41 libpcsclite.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libpcsclite.so.1.0.0
+-rw-r--r--  1 guignard guignard    42848 oct 20 09:46 libpcsclite.so.1.0.0
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:41 libperl.so.5.24 -> /home/guignard/Documents/syncthing/moins_facile/libperl.so.5.24.1
+-rw-r--r--  1 guignard guignard  2045216 oct 20 09:46 libperl.so.5.24.1
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:41 libpipeline.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libpipeline.so.1.4.1
+-rw-r--r--  1 guignard guignard    55136 oct 20 09:46 libpipeline.so.1.4.1
+lrwxrwxrwx  1 guignard guignard       73 jan 26 17:41 libpkcs11-helper.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libpkcs11-helper.so.1.0.0
+-rw-r--r--  1 guignard guignard   113728 oct 20 09:46 libpkcs11-helper.so.1.0.0
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 libpng16.so.16 -> /home/guignard/Documents/syncthing/moins_facile/libpng16.so.16.28.0
+-rw-r--r--  1 guignard guignard   206768 oct 20 09:46 libpng16.so.16.28.0
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:41 libpsl.so.5 -> /home/guignard/Documents/syncthing/moins_facile/libpsl.so.5.1.1
+-rw-r--r--  1 guignard guignard    55136 oct 20 09:46 libpsl.so.5.1.1
+-rw-r--r--  1 guignard guignard   118256 oct 20 09:46 librtmp.so.1
+lrwxrwxrwx  1 guignard guignard       66 jan 26 17:41 libsasl2.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libsasl2.so.2.0.25
+-rw-r--r--  1 guignard guignard   109296 oct 20 09:46 libsasl2.so.2.0.25
+-rw-r--r--  1 guignard guignard   248032 oct 20 09:46 libsemanage.so.1
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 libsensors.so.4 -> /home/guignard/Documents/syncthing/moins_facile/libsensors.so.4.4.0
+-rw-r--r--  1 guignard guignard    59872 oct 20 09:46 libsensors.so.4.4.0
+lrwxrwxrwx  1 guignard guignard       69 jan 26 17:41 libsmm-local.so.4 -> /home/guignard/Documents/syncthing/moins_facile/libsmm-local.so.4.0.0
+-rw-r--r--  1 guignard guignard    72224 oct 20 09:46 libsmm-local.so.4.0.0
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:41 libsnmp.so.30 -> /home/guignard/Documents/syncthing/moins_facile/libsnmp.so.30.0.3
+-rw-r--r--  1 guignard guignard   709592 oct 20 09:46 libsnmp.so.30.0.3
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 libsqlite3.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libsqlite3.so.0.8.6
+-rw-r--r--  1 guignard guignard  1078304 oct 20 09:46 libsqlite3.so.0.8.6
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libssh2.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libssh2.so.1.0.1
+-rw-r--r--  1 guignard guignard   179480 oct 20 09:46 libssh2.so.1.0.1
+-rw-r--r--  1 guignard guignard   431232 oct 20 09:46 libssl.so.1.0.2
+-rw-r--r--  1 guignard guignard   442920 oct 20 09:46 libssl.so.1.1
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 libstdc++.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libstdc++.so.6.0.22
+-rw-r--r--  1 guignard guignard  1566168 oct 20 09:46 libstdc++.so.6.0.22
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:41 libtasn1.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libtasn1.so.6.5.3
+-rw-r--r--  1 guignard guignard    75776 oct 20 09:46 libtasn1.so.6.5.3
+lrwxrwxrwx  1 guignard guignard       61 jan 26 17:41 libtic.so.5 -> /home/guignard/Documents/syncthing/moins_facile/libtic.so.5.9
+-rw-r--r--  1 guignard guignard    59400 oct 20 09:46 libtic.so.5.9
+lrwxrwxrwx  1 guignard guignard       69 jan 26 17:41 libunistring.so.0 -> /home/guignard/Documents/syncthing/moins_facile/libunistring.so.0.1.2
+-rw-r--r--  1 guignard guignard  1138648 oct 20 09:46 libunistring.so.0.1.2
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:41 libustr-1.0.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libustr-1.0.so.1.0.4
+-rw-r--r--  1 guignard guignard   215040 oct 20 09:46 libustr-1.0.so.1.0.4
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:46 libX11.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libX11.so.6.3.0
+-rw-r--r--  1 guignard guignard  1310288 oct 20 09:46 libX11.so.6.3.0
+lrwxrwxrwx  1 guignard guignard       67 jan 26 17:41 libxapian.so.30 -> /home/guignard/Documents/syncthing/moins_facile/libxapian.so.30.3.0
+-rw-r--r--  1 guignard guignard  2178720 oct 20 09:46 libxapian.so.30.3.0
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:46 libXau.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libXau.so.6.0.0
+-rw-r--r--  1 guignard guignard    14544 oct 20 09:46 libXau.so.6.0.0
+lrwxrwxrwx  1 guignard guignard       63 jan 26 17:41 libxcb.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libxcb.so.1.1.0
+-rw-r--r--  1 guignard guignard   162800 oct 20 09:46 libxcb.so.1.1.0
+lrwxrwxrwx  1 guignard guignard       65 jan 26 17:46 libXdmcp.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libXdmcp.so.6.0.0
+-rw-r--r--  1 guignard guignard    22728 oct 20 09:46 libXdmcp.so.6.0.0
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:46 libXext.so.6 -> /home/guignard/Documents/syncthing/moins_facile/libXext.so.6.4.0
+-rw-r--r--  1 guignard guignard    73424 oct 20 09:46 libXext.so.6.4.0
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:41 libxml2.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libxml2.so.2.9.4
+-rw-r--r--  1 guignard guignard  1809656 oct 20 09:46 libxml2.so.2.9.4
+lrwxrwxrwx  1 guignard guignard       64 jan 26 17:46 libXmuu.so.1 -> /home/guignard/Documents/syncthing/moins_facile/libXmuu.so.1.0.0
+-rw-r--r--  1 guignard guignard    18600 oct 20 09:46 libXmuu.so.1.0.0
+lrwxrwxrwx  1 guignard guignard       68 jan 26 17:41 libxtables.so.12 -> /home/guignard/Documents/syncthing/moins_facile/libxtables.so.12.0.0
+-rw-r--r--  1 guignard guignard    51120 oct 20 09:46 libxtables.so.12.0.0
+-rw-r--r--  1 guignard guignard   207888 oct 20 09:46 onepin-opensc-pkcs11.so
+-rw-r--r--  1 guignard guignard   207888 oct 20 09:46 opensc-pkcs11.so
+drwxr-xr-x  3 guignard guignard     4096 jan 26 17:41 openssl-1.0.2
+drwxr-xr-x  3 guignard guignard     4096 jan 26 17:41 perl5
+drwxr-xr-x 16 guignard guignard     4096 jan 26 17:46 perl-base
+drwxr-xr-x  2 guignard guignard     4096 jan 26 17:41 pkcs11
+-rw-r--r--  1 guignard guignard    90272 oct 20 09:46 pkcs11-spy.so
+drwxr-xr-x  2 guignard guignard     4096 jan 26 17:46 rsyslog
+drwxr-xr-x  2 guignard guignard     4096 jan 26 17:46 sasl2
+
+./moins_facile/audit:
+total 12
+-rw-r--r-- 1 guignard guignard 10512 oct 20 09:46 sotruss-lib.so
+
+./moins_facile/avahi:
+total 16
+-rw-r--r-- 1 guignard guignard 15569 oct 20 09:46 service-types.db
+
+./moins_facile/coreutils:
+total 8
+-rw-r--r-- 1 guignard guignard 6208 oct 20 09:46 libstdbuf.so
+
+./moins_facile/engines-1.1:
+total 32
+-rw-r--r-- 1 guignard guignard  6000 oct 20 09:46 capi.so
+-rw-r--r-- 1 guignard guignard 22928 oct 20 09:46 padlock.so
+
+./moins_facile/gconv:
+total 6480
+-rw-r--r-- 1 guignard guignard  22696 oct 20 09:46 ANSI_X3.110.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ARMSCII-8.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ASMO_449.so
+-rw-r--r-- 1 guignard guignard 235688 oct 20 09:46 BIG5HKSCS.so
+-rw-r--r-- 1 guignard guignard  88232 oct 20 09:46 BIG5.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 BRF.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP10007.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP1125.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP1250.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP1251.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP1252.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP1253.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP1254.so
+-rw-r--r-- 1 guignard guignard  14504 oct 20 09:46 CP1255.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP1256.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP1257.so
+-rw-r--r-- 1 guignard guignard  14512 oct 20 09:46 CP1258.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP737.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP770.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP771.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP772.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP773.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP774.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CP775.so
+-rw-r--r-- 1 guignard guignard  96424 oct 20 09:46 CP932.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CSN_369103.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 CWI.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 DEC-MCS.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-AT-DE-A.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-AT-DE.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-CA-FR.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-DK-NO-A.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-DK-NO.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-ES-A.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-ES.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-ES-S.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-FI-SE-A.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-FI-SE.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-FR.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-IS-FRISS.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-IT.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-PT.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-UK.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 EBCDIC-US.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ECMA-CYRILLIC.so
+-rw-r--r-- 1 guignard guignard  18600 oct 20 09:46 EUC-CN.so
+-rw-r--r-- 1 guignard guignard  14504 oct 20 09:46 EUC-JISX0213.so
+-rw-r--r-- 1 guignard guignard  88232 oct 20 09:46 EUC-JP-MS.so
+-rw-r--r-- 1 guignard guignard  14504 oct 20 09:46 EUC-JP.so
+-rw-r--r-- 1 guignard guignard  14504 oct 20 09:46 EUC-KR.so
+-rw-r--r-- 1 guignard guignard  22696 oct 20 09:46 EUC-TW.so
+-rw-r--r-- 1 guignard guignard 178344 oct 20 09:46 GB18030.so
+-rw-r--r-- 1 guignard guignard  55456 oct 20 09:46 GBBIG5.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 GBGBK.so
+-rw-r--r-- 1 guignard guignard 112808 oct 20 09:46 GBK.so
+-rw-r--r-- 1 guignard guignard  56095 oct 20 09:46 gconv-modules
+-rw-r--r-- 1 guignard guignard  26258 oct 20 09:46 gconv-modules.cache
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 GEORGIAN-ACADEMY.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 GEORGIAN-PS.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 GOST_19768-74.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 GREEK7-OLD.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 GREEK7.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 GREEK-CCITT.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 HP-GREEK8.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 HP-ROMAN8.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 HP-ROMAN9.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 HP-THAI8.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 HP-TURKISH8.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM037.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM038.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1004.so
+-rw-r--r-- 1 guignard guignard   6304 oct 20 09:46 IBM1008_420.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1008.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1025.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1026.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1046.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1047.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1097.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1112.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1122.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1123.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1124.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1129.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1130.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1132.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1133.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1137.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1140.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1141.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1142.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1143.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1144.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1145.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1146.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1147.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1148.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1149.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1153.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1154.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1155.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1156.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1157.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1158.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1160.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1161.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1162.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1163.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1164.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1166.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM1167.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM12712.so
+-rw-r--r-- 1 guignard guignard 149664 oct 20 09:46 IBM1364.so
+-rw-r--r-- 1 guignard guignard 129184 oct 20 09:46 IBM1371.so
+-rw-r--r-- 1 guignard guignard 174240 oct 20 09:46 IBM1388.so
+-rw-r--r-- 1 guignard guignard 231584 oct 20 09:46 IBM1390.so
+-rw-r--r-- 1 guignard guignard 231584 oct 20 09:46 IBM1399.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM16804.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM256.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM273.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM274.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM275.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM277.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM278.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM280.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM281.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM284.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM285.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM290.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM297.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM420.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM423.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM424.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM437.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM4517.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM4899.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM4909.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM4971.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM500.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM5347.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM803.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM850.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM851.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM852.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM855.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM856.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM857.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM860.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM861.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM862.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM863.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM864.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM865.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM866NAV.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM866.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM868.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM869.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM870.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM871.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM874.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM875.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM880.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM891.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM901.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM902.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM9030.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM903.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM904.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM905.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM9066.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM918.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM921.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM922.so
+-rw-r--r-- 1 guignard guignard 108792 oct 20 09:46 IBM930.so
+-rw-r--r-- 1 guignard guignard  71848 oct 20 09:46 IBM932.so
+-rw-r--r-- 1 guignard guignard 125176 oct 20 09:46 IBM933.so
+-rw-r--r-- 1 guignard guignard  88312 oct 20 09:46 IBM935.so
+-rw-r--r-- 1 guignard guignard 112808 oct 20 09:46 IBM937.so
+-rw-r--r-- 1 guignard guignard 108792 oct 20 09:46 IBM939.so
+-rw-r--r-- 1 guignard guignard  71848 oct 20 09:46 IBM943.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IBM9448.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 IEC_P27-1.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 INIS-8.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 INIS-CYRILLIC.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 INIS.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISIRI-3342.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO_10367-BOX.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO_11548-1.so
+-rw-r--r-- 1 guignard guignard  39088 oct 20 09:46 ISO-2022-CN-EXT.so
+-rw-r--r-- 1 guignard guignard  34984 oct 20 09:46 ISO-2022-CN.so
+-rw-r--r-- 1 guignard guignard  26792 oct 20 09:46 ISO-2022-JP-3.so
+-rw-r--r-- 1 guignard guignard  43208 oct 20 09:46 ISO-2022-JP.so
+-rw-r--r-- 1 guignard guignard  14504 oct 20 09:46 ISO-2022-KR.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO_2033.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO_5427-EXT.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO_5427.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO_5428.so
+-rw-r--r-- 1 guignard guignard  18704 oct 20 09:46 ISO646.so
+-rw-r--r-- 1 guignard guignard  22696 oct 20 09:46 ISO_6937-2.so
+-rw-r--r-- 1 guignard guignard  22696 oct 20 09:46 ISO_6937.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-10.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-11.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-13.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-14.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-15.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-16.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-1.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-2.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-3.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-4.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-5.so
+-rw-r--r-- 1 guignard guignard  14504 oct 20 09:46 ISO8859-6.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-7.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-8.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-9E.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO8859-9.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO-IR-197.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 ISO-IR-209.so
+-rw-r--r-- 1 guignard guignard  18600 oct 20 09:46 JOHAB.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 KOI8-R.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 KOI8-RU.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 KOI-8.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 KOI8-T.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 KOI8-U.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 LATIN-GREEK-1.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 LATIN-GREEK.so
+-rw-r--r-- 1 guignard guignard 468984 oct 20 09:46 libCNS.so
+-rw-r--r-- 1 guignard guignard  67576 oct 20 09:46 libGB.so
+-rw-r--r-- 1 guignard guignard  59384 oct 20 09:46 libISOIR165.so
+-rw-r--r-- 1 guignard guignard 100344 oct 20 09:46 libJIS.so
+-rw-r--r-- 1 guignard guignard 120824 oct 20 09:46 libJISX0213.so
+-rw-r--r-- 1 guignard guignard  47096 oct 20 09:46 libKSC.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 MAC-CENTRALEUROPE.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 MACINTOSH.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 MAC-IS.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 MAC-SAMI.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 MAC-UK.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 MIK.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 NATS-DANO.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 NATS-SEFI.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 PT154.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 RK1048.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 SAMI-WS2.so
+-rw-r--r-- 1 guignard guignard  18600 oct 20 09:46 SHIFT_JISX0213.so
+-rw-r--r-- 1 guignard guignard  96424 oct 20 09:46 SJIS.so
+-rw-r--r-- 1 guignard guignard  18600 oct 20 09:46 T.61.so
+-rw-r--r-- 1 guignard guignard  14512 oct 20 09:46 TCVN5712-1.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 TIS-620.so
+-rw-r--r-- 1 guignard guignard  18600 oct 20 09:46 TSCII.so
+-rw-r--r-- 1 guignard guignard  71848 oct 20 09:46 UHC.so
+-rw-r--r-- 1 guignard guignard  10424 oct 20 09:46 UNICODE.so
+-rw-r--r-- 1 guignard guignard  14528 oct 20 09:46 UTF-16.so
+-rw-r--r-- 1 guignard guignard  10432 oct 20 09:46 UTF-32.so
+-rw-r--r-- 1 guignard guignard  18608 oct 20 09:46 UTF-7.so
+-rw-r--r-- 1 guignard guignard  10408 oct 20 09:46 VISCII.so
+
+./moins_facile/krb5:
+total 4
+drwxr-xr-x 3 guignard guignard 4096 jan 26 17:41 plugins
+
+./moins_facile/krb5/plugins:
+total 4
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:41 krb5
+
+./moins_facile/krb5/plugins/krb5:
+total 0
+
+./moins_facile/openssl-1.0.2:
+total 4
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 engines
+
+./moins_facile/openssl-1.0.2/engines:
+total 280
+-rw-r--r-- 1 guignard guignard 19488 oct 20 09:46 lib4758cca.so
+-rw-r--r-- 1 guignard guignard 19728 oct 20 09:46 libaep.so
+-rw-r--r-- 1 guignard guignard 15488 oct 20 09:46 libatalla.so
+-rw-r--r-- 1 guignard guignard  6080 oct 20 09:46 libcapi.so
+-rw-r--r-- 1 guignard guignard 24176 oct 20 09:46 libchil.so
+-rw-r--r-- 1 guignard guignard 23840 oct 20 09:46 libcswift.so
+-rw-r--r-- 1 guignard guignard  6080 oct 20 09:46 libgmp.so
+-rw-r--r-- 1 guignard guignard 93280 oct 20 09:46 libgost.so
+-rw-r--r-- 1 guignard guignard 15376 oct 20 09:46 libnuron.so
+-rw-r--r-- 1 guignard guignard  6080 oct 20 09:46 libpadlock.so
+-rw-r--r-- 1 guignard guignard 23968 oct 20 09:46 libsureware.so
+-rw-r--r-- 1 guignard guignard 19696 oct 20 09:46 libubsec.so
+
+./moins_facile/perl5:
+total 4
+drwxr-xr-x 5 guignard guignard 4096 jan 26 17:41 5.24
+
+./moins_facile/perl5/5.24:
+total 12
+drwxr-xr-x 4 guignard guignard 4096 jan 26 17:41 auto
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Locale
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Text
+
+./moins_facile/perl5/5.24/auto:
+total 8
+drwxr-xr-x 3 guignard guignard 4096 jan 26 17:41 Locale
+drwxr-xr-x 4 guignard guignard 4096 jan 26 17:41 Text
+
+./moins_facile/perl5/5.24/auto/Locale:
+total 4
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 gettext
+
+./moins_facile/perl5/5.24/auto/Locale/gettext:
+total 16
+-rw-r--r-- 1 guignard guignard 14176 oct 20 09:46 gettext.so
+
+./moins_facile/perl5/5.24/auto/Text:
+total 8
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CharWidth
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Iconv
+
+./moins_facile/perl5/5.24/auto/Text/CharWidth:
+total 12
+-rw-r--r-- 1 guignard guignard 10336 oct 20 09:46 CharWidth.so
+
+./moins_facile/perl5/5.24/auto/Text/Iconv:
+total 24
+-rw-r--r-- 1 guignard guignard    89 oct 20 09:46 autosplit.ix
+-rw-r--r-- 1 guignard guignard 18672 oct 20 09:46 Iconv.so
+
+./moins_facile/perl5/5.24/Locale:
+total 8
+-rw-r--r-- 1 guignard guignard 6854 oct 20 09:46 gettext.pm
+
+./moins_facile/perl5/5.24/Text:
+total 12
+-rw-r--r-- 1 guignard guignard 2040 oct 20 09:46 CharWidth.pm
+-rw-r--r-- 1 guignard guignard 5042 oct 20 09:46 Iconv.pm
+
+./moins_facile/perl-base:
+total 404
+-rw-r--r--  1 guignard guignard  3018 oct 20 09:46 attributes.pm
+drwxr-xr-x 12 guignard guignard  4096 jan 26 17:41 auto
+-rw-r--r--  1 guignard guignard  5487 oct 20 09:46 AutoLoader.pm
+-rw-r--r--  1 guignard guignard  8931 oct 20 09:46 base.pm
+-rw-r--r--  1 guignard guignard   758 oct 20 09:46 bytes_heavy.pl
+-rw-r--r--  1 guignard guignard   447 oct 20 09:46 bytes.pm
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 Carp
+-rw-r--r--  1 guignard guignard 20138 oct 20 09:46 Carp.pm
+-rw-r--r--  1 guignard guignard   409 oct 20 09:46 Config_git.pl
+-rw-r--r--  1 guignard guignard 50645 oct 20 09:46 Config_heavy.pl
+-rw-r--r--  1 guignard guignard  3331 oct 20 09:46 Config.pm
+-rw-r--r--  1 guignard guignard  5737 oct 20 09:46 constant.pm
+-rw-r--r--  1 guignard guignard 18542 oct 20 09:46 Cwd.pm
+-rw-r--r--  1 guignard guignard 10453 oct 20 09:46 DynaLoader.pm
+-rw-r--r--  1 guignard guignard  4884 oct 20 09:46 Errno.pm
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 Exporter
+-rw-r--r--  1 guignard guignard  2367 oct 20 09:46 Exporter.pm
+-rw-r--r--  1 guignard guignard  2156 oct 20 09:46 Fcntl.pm
+-rw-r--r--  1 guignard guignard  4313 oct 20 09:46 feature.pm
+-rw-r--r--  1 guignard guignard  5022 oct 20 09:46 fields.pm
+drwxr-xr-x  3 guignard guignard  4096 jan 26 17:45 File
+-rw-r--r--  1 guignard guignard  2105 oct 20 09:46 FileHandle.pm
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 Getopt
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 Hash
+-rw-r--r--  1 guignard guignard   172 oct 20 09:46 integer.pm
+drwxr-xr-x  3 guignard guignard  4096 jan 26 17:45 IO
+-rw-r--r--  1 guignard guignard   472 oct 20 09:46 IO.pm
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 IPC
+-rw-r--r--  1 guignard guignard  2284 oct 20 09:46 lib.pm
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 List
+-rw-r--r--  1 guignard guignard  3421 oct 20 09:46 locale.pm
+-rw-r--r--  1 guignard guignard   964 oct 20 09:46 overloading.pm
+-rw-r--r--  1 guignard guignard  4466 oct 20 09:46 overload.pm
+-rw-r--r--  1 guignard guignard   479 oct 20 09:46 parent.pm
+-rw-r--r--  1 guignard guignard 19879 oct 20 09:46 POSIX.pm
+-rw-r--r--  1 guignard guignard  8639 oct 20 09:46 re.pm
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 Scalar
+-rw-r--r--  1 guignard guignard   344 oct 20 09:46 SelectSaver.pm
+-rw-r--r--  1 guignard guignard 13554 oct 20 09:46 Socket.pm
+-rw-r--r--  1 guignard guignard  1606 oct 20 09:46 strict.pm
+-rw-r--r--  1 guignard guignard  2099 oct 20 09:46 Symbol.pm
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 Text
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:45 Tie
+drwxr-xr-x  4 guignard guignard  4096 jan 26 17:46 unicore
+-rw-r--r--  1 guignard guignard 31615 oct 20 09:46 utf8_heavy.pl
+-rw-r--r--  1 guignard guignard   342 oct 20 09:46 utf8.pm
+-rw-r--r--  1 guignard guignard  1149 oct 20 09:46 vars.pm
+drwxr-xr-x  2 guignard guignard  4096 jan 26 17:46 warnings
+-rw-r--r--  1 guignard guignard 21639 oct 20 09:46 warnings.pm
+-rw-r--r--  1 guignard guignard  3899 oct 20 09:46 XSLoader.pm
+
+./moins_facile/perl-base/auto:
+total 40
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 attributes
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 Cwd
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 Fcntl
+drwxr-xr-x 3 guignard guignard 4096 jan 26 17:41 File
+drwxr-xr-x 3 guignard guignard 4096 jan 26 17:41 Hash
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 IO
+drwxr-xr-x 3 guignard guignard 4096 jan 26 17:41 List
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 POSIX
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 re
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 Socket
+
+./moins_facile/perl-base/auto/attributes:
+total 12
+-rw-r--r-- 1 guignard guignard 10408 oct 20 09:46 attributes.so
+
+./moins_facile/perl-base/auto/Cwd:
+total 20
+-rw-r--r-- 1 guignard guignard 18704 oct 20 09:46 Cwd.so
+
+./moins_facile/perl-base/auto/Fcntl:
+total 20
+-rw-r--r-- 1 guignard guignard 18688 oct 20 09:46 Fcntl.so
+
+./moins_facile/perl-base/auto/File:
+total 4
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 Glob
+
+./moins_facile/perl-base/auto/File/Glob:
+total 28
+-rw-r--r-- 1 guignard guignard 27176 oct 20 09:46 Glob.so
+
+./moins_facile/perl-base/auto/Hash:
+total 4
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 Util
+
+./moins_facile/perl-base/auto/Hash/Util:
+total 16
+-rw-r--r-- 1 guignard guignard 14544 oct 20 09:46 Util.so
+
+./moins_facile/perl-base/auto/IO:
+total 20
+-rw-r--r-- 1 guignard guignard 18768 oct 20 09:46 IO.so
+
+./moins_facile/perl-base/auto/List:
+total 4
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 Util
+
+./moins_facile/perl-base/auto/List/Util:
+total 48
+-rw-r--r-- 1 guignard guignard 47696 oct 20 09:46 Util.so
+
+./moins_facile/perl-base/auto/POSIX:
+total 104
+-rw-r--r-- 1 guignard guignard 106128 oct 20 09:46 POSIX.so
+
+./moins_facile/perl-base/auto/re:
+total 484
+-rw-r--r-- 1 guignard guignard 495120 oct 20 09:46 re.so
+
+./moins_facile/perl-base/auto/Socket:
+total 44
+-rw-r--r-- 1 guignard guignard 43464 oct 20 09:46 Socket.so
+
+./moins_facile/perl-base/Carp:
+total 4
+-rw-r--r-- 1 guignard guignard 773 oct 20 09:46 Heavy.pm
+
+./moins_facile/perl-base/Exporter:
+total 8
+-rw-r--r-- 1 guignard guignard 6406 oct 20 09:46 Heavy.pm
+
+./moins_facile/perl-base/File:
+total 88
+-rw-r--r-- 1 guignard guignard  5429 oct 20 09:46 Basename.pm
+-rw-r--r-- 1 guignard guignard  1837 oct 20 09:46 Glob.pm
+-rw-r--r-- 1 guignard guignard 18490 oct 20 09:46 Path.pm
+drwxr-xr-x 2 guignard guignard  4096 jan 26 17:45 Spec
+-rw-r--r-- 1 guignard guignard   622 oct 20 09:46 Spec.pm
+-rw-r--r-- 1 guignard guignard 46927 oct 20 09:46 Temp.pm
+
+./moins_facile/perl-base/File/Spec:
+total 12
+-rw-r--r-- 1 guignard guignard 10014 oct 20 09:46 Unix.pm
+
+./moins_facile/perl-base/Getopt:
+total 44
+-rw-r--r-- 1 guignard guignard 43321 oct 20 09:46 Long.pm
+
+./moins_facile/perl-base/Hash:
+total 8
+-rw-r--r-- 1 guignard guignard 7580 oct 20 09:46 Util.pm
+
+./moins_facile/perl-base/IO:
+total 48
+-rw-r--r-- 1 guignard guignard 1666 oct 20 09:46 File.pm
+-rw-r--r-- 1 guignard guignard 8235 oct 20 09:46 Handle.pm
+-rw-r--r-- 1 guignard guignard 3425 oct 20 09:46 Pipe.pm
+-rw-r--r-- 1 guignard guignard  686 oct 20 09:46 Seekable.pm
+-rw-r--r-- 1 guignard guignard 4359 oct 20 09:46 Select.pm
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:45 Socket
+-rw-r--r-- 1 guignard guignard 9455 oct 20 09:46 Socket.pm
+
+./moins_facile/perl-base/IO/Socket:
+total 32
+-rw-r--r-- 1 guignard guignard  7474 oct 20 09:46 INET.pm
+-rw-r--r-- 1 guignard guignard 20427 oct 20 09:46 IP.pm
+-rw-r--r-- 1 guignard guignard  1375 oct 20 09:46 UNIX.pm
+
+./moins_facile/perl-base/IPC:
+total 16
+-rw-r--r-- 1 guignard guignard  816 oct 20 09:46 Open2.pm
+-rw-r--r-- 1 guignard guignard 9053 oct 20 09:46 Open3.pm
+
+./moins_facile/perl-base/List:
+total 4
+-rw-r--r-- 1 guignard guignard 1078 oct 20 09:46 Util.pm
+
+./moins_facile/perl-base/Scalar:
+total 4
+-rw-r--r-- 1 guignard guignard 1410 oct 20 09:46 Util.pm
+
+./moins_facile/perl-base/Text:
+total 16
+-rw-r--r-- 1 guignard guignard 4480 oct 20 09:46 ParseWords.pm
+-rw-r--r-- 1 guignard guignard 1702 oct 20 09:46 Tabs.pm
+-rw-r--r-- 1 guignard guignard 2922 oct 20 09:46 Wrap.pm
+
+./moins_facile/perl-base/Tie:
+total 4
+-rw-r--r-- 1 guignard guignard 2037 oct 20 09:46 Hash.pm
+
+./moins_facile/perl-base/unicore:
+total 136
+-rw-r--r--  1 guignard guignard 129498 oct 20 09:46 Heavy.pl
+drwxr-xr-x 64 guignard guignard   4096 jan 26 17:41 lib
+drwxr-xr-x  2 guignard guignard   4096 jan 26 17:46 To
+
+./moins_facile/perl-base/unicore/lib:
+total 248
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Age
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Alpha
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Bc
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 BidiC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 BidiM
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Blk
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Bpt
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Cased
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Ccc
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CE
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CI
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CompEx
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CWCF
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CWCM
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CWKCF
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CWL
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CWT
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 CWU
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Dash
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Dep
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 DI
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Dia
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Dt
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Ea
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Ext
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Gc
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 GCB
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 GrBase
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Hex
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Hst
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Hyphen
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 IDC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Ideo
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 IDS
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 In
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 InPC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 InSC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Jg
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Jt
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Lb
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Lower
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Math
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 NFCQC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 NFDQC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 NFKCQC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 NFKDQC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Nt
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Nv
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 PatSyn
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Perl
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 QMark
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 SB
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Sc
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Scx
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 SD
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 STerm
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Term
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 UIdeo
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 Upper
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 WB
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 XIDC
+drwxr-xr-x 2 guignard guignard 4096 jan 26 17:46 XIDS
+
+./moins_facile/perl-base/unicore/lib/Age:
+total 64
+-rw-r--r-- 1 guignard guignard 7663 oct 20 09:46 NA.pl
+-rw-r--r-- 1 guignard guignard 3447 oct 20 09:46 V11.pl
+-rw-r--r-- 1 guignard guignard  841 oct 20 09:46 V20.pl
+-rw-r--r-- 1 guignard guignard 1709 oct 20 09:46 V30.pl
+-rw-r--r-- 1 guignard guignard  978 oct 20 09:46 V31.pl
+-rw-r--r-- 1 guignard guignard 1115 oct 20 09:46 V32.pl
+-rw-r--r-- 1 guignard guignard 1325 oct 20 09:46 V40.pl
+-rw-r--r-- 1 guignard guignard 1429 oct 20 09:46 V41.pl
+-rw-r--r-- 1 guignard guignard  870 oct 20 09:46 V50.pl
+-rw-r--r-- 1 guignard guignard 1459 oct 20 09:46 V51.pl
+-rw-r--r-- 1 guignard guignard 1539 oct 20 09:46 V52.pl
+-rw-r--r-- 1 guignard guignard 1815 oct 20 09:46 V60.pl
+-rw-r--r-- 1 guignard guignard 1625 oct 20 09:46 V61.pl
+-rw-r--r-- 1 guignard guignard 2213 oct 20 09:46 V70.pl
+-rw-r--r-- 1 guignard guignard 1213 oct 20 09:46 V80.pl
+
+./moins_facile/perl-base/unicore/lib/Alpha:
+total 8
+-rw-r--r-- 1 guignard guignard 7378 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Bc:
+total 56
+-rw-r--r-- 1 guignard guignard  708 oct 20 09:46 AL.pl
+-rw-r--r-- 1 guignard guignard  542 oct 20 09:46 AN.pl
+-rw-r--r-- 1 guignard guignard  882 oct 20 09:46 BN.pl
+-rw-r--r-- 1 guignard guignard  526 oct 20 09:46 B.pl
+-rw-r--r-- 1 guignard guignard  618 oct 20 09:46 CS.pl
+-rw-r--r-- 1 guignard guignard  614 oct 20 09:46 EN.pl
+-rw-r--r-- 1 guignard guignard  580 oct 20 09:46 ES.pl
+-rw-r--r-- 1 guignard guignard  714 oct 20 09:46 ET.pl
+-rw-r--r-- 1 guignard guignard 4913 oct 20 09:46 L.pl
+-rw-r--r-- 1 guignard guignard 3351 oct 20 09:46 NSM.pl
+-rw-r--r-- 1 guignard guignard 2436 oct 20 09:46 ON.pl
+-rw-r--r-- 1 guignard guignard  838 oct 20 09:46 R.pl
+-rw-r--r-- 1 guignard guignard  554 oct 20 09:46 WS.pl
+
+./moins_facile/perl-base/unicore/lib/BidiC:
+total 4
+-rw-r--r-- 1 guignard guignard 529 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/BidiM:
+total 4
+-rw-r--r-- 1 guignard guignard 1717 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Blk:
+total 4
+-rw-r--r-- 1 guignard guignard 1025 oct 20 09:46 NB.pl
+
+./moins_facile/perl-base/unicore/lib/Bpt:
+total 12
+-rw-r--r-- 1 guignard guignard 1177 oct 20 09:46 C.pl
+-rw-r--r-- 1 guignard guignard  800 oct 20 09:46 N.pl
+-rw-r--r-- 1 guignard guignard 1177 oct 20 09:46 O.pl
+
+./moins_facile/perl-base/unicore/lib/Cased:
+total 4
+-rw-r--r-- 1 guignard guignard 1937 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Ccc:
+total 40
+-rw-r--r-- 1 guignard guignard 1551 oct 20 09:46 A.pl
+-rw-r--r-- 1 guignard guignard  525 oct 20 09:46 AR.pl
+-rw-r--r-- 1 guignard guignard  535 oct 20 09:46 ATAR.pl
+-rw-r--r-- 1 guignard guignard 1211 oct 20 09:46 B.pl
+-rw-r--r-- 1 guignard guignard  531 oct 20 09:46 BR.pl
+-rw-r--r-- 1 guignard guignard  523 oct 20 09:46 DB.pl
+-rw-r--r-- 1 guignard guignard  710 oct 20 09:46 NK.pl
+-rw-r--r-- 1 guignard guignard 2149 oct 20 09:46 NR.pl
+-rw-r--r-- 1 guignard guignard  610 oct 20 09:46 OV.pl
+-rw-r--r-- 1 guignard guignard  942 oct 20 09:46 VR.pl
+
+./moins_facile/perl-base/unicore/lib/CE:
+total 4
+-rw-r--r-- 1 guignard guignard 846 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/CI:
+total 8
+-rw-r--r-- 1 guignard guignard 4241 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/CompEx:
+total 4
+-rw-r--r-- 1 guignard guignard 1259 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/CWCF:
+total 8
+-rw-r--r-- 1 guignard guignard 6490 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/CWCM:
+total 4
+-rw-r--r-- 1 guignard guignard 1593 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/CWKCF:
+total 12
+-rw-r--r-- 1 guignard guignard 8994 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/CWL:
+total 8
+-rw-r--r-- 1 guignard guignard 6374 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/CWT:
+total 8
+-rw-r--r-- 1 guignard guignard 6532 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/CWU:
+total 8
+-rw-r--r-- 1 guignard guignard 6524 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Dash:
+total 4
+-rw-r--r-- 1 guignard guignard 718 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Dep:
+total 4
+-rw-r--r-- 1 guignard guignard 586 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/DI:
+total 4
+-rw-r--r-- 1 guignard guignard 678 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Dia:
+total 4
+-rw-r--r-- 1 guignard guignard 2061 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Dt:
+total 56
+-rw-r--r-- 1 guignard guignard 1249 oct 20 09:46 Com.pl
+-rw-r--r-- 1 guignard guignard  586 oct 20 09:46 Enc.pl
+-rw-r--r-- 1 guignard guignard 1847 oct 20 09:46 Fin.pl
+-rw-r--r-- 1 guignard guignard 1379 oct 20 09:46 Font.pl
+-rw-r--r-- 1 guignard guignard 1391 oct 20 09:46 Init.pl
+-rw-r--r-- 1 guignard guignard 1667 oct 20 09:46 Iso.pl
+-rw-r--r-- 1 guignard guignard 1139 oct 20 09:46 Med.pl
+-rw-r--r-- 1 guignard guignard  562 oct 20 09:46 Nar.pl
+-rw-r--r-- 1 guignard guignard  538 oct 20 09:46 Nb.pl
+-rw-r--r-- 1 guignard guignard 2657 oct 20 09:46 NonCanon.pl
+-rw-r--r-- 1 guignard guignard  606 oct 20 09:46 Sqr.pl
+-rw-r--r-- 1 guignard guignard  531 oct 20 09:46 Sub.pl
+-rw-r--r-- 1 guignard guignard  738 oct 20 09:46 Sup.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 Vert.pl
+
+./moins_facile/perl-base/unicore/lib/Ea:
+total 20
+-rw-r--r-- 1 guignard guignard 2152 oct 20 09:46 A.pl
+-rw-r--r-- 1 guignard guignard  572 oct 20 09:46 H.pl
+-rw-r--r-- 1 guignard guignard  553 oct 20 09:46 Na.pl
+-rw-r--r-- 1 guignard guignard 2613 oct 20 09:46 N.pl
+-rw-r--r-- 1 guignard guignard  896 oct 20 09:46 W.pl
+
+./moins_facile/perl-base/unicore/lib/Ext:
+total 4
+-rw-r--r-- 1 guignard guignard 776 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Gc:
+total 148
+-rw-r--r-- 1 guignard guignard  680 oct 20 09:46 Cf.pl
+-rw-r--r-- 1 guignard guignard 7523 oct 20 09:46 Cn.pl
+-rw-r--r-- 1 guignard guignard 7529 oct 20 09:46 C.pl
+-rw-r--r-- 1 guignard guignard 1849 oct 20 09:46 LC.pl
+-rw-r--r-- 1 guignard guignard 6928 oct 20 09:46 Ll.pl
+-rw-r--r-- 1 guignard guignard 1091 oct 20 09:46 Lm.pl
+-rw-r--r-- 1 guignard guignard 5375 oct 20 09:46 Lo.pl
+-rw-r--r-- 1 guignard guignard 6716 oct 20 09:46 L.pl
+-rw-r--r-- 1 guignard guignard 6866 oct 20 09:46 Lu.pl
+-rw-r--r-- 1 guignard guignard 2085 oct 20 09:46 Mc.pl
+-rw-r--r-- 1 guignard guignard  542 oct 20 09:46 Me.pl
+-rw-r--r-- 1 guignard guignard 3391 oct 20 09:46 Mn.pl
+-rw-r--r-- 1 guignard guignard 3065 oct 20 09:46 M.pl
+-rw-r--r-- 1 guignard guignard 1043 oct 20 09:46 Nd.pl
+-rw-r--r-- 1 guignard guignard  628 oct 20 09:46 Nl.pl
+-rw-r--r-- 1 guignard guignard 1149 oct 20 09:46 No.pl
+-rw-r--r-- 1 guignard guignard 1731 oct 20 09:46 N.pl
+-rw-r--r-- 1 guignard guignard  678 oct 20 09:46 Pd.pl
+-rw-r--r-- 1 guignard guignard 1321 oct 20 09:46 Pe.pl
+-rw-r--r-- 1 guignard guignard  600 oct 20 09:46 Pf.pl
+-rw-r--r-- 1 guignard guignard  610 oct 20 09:46 Pi.pl
+-rw-r--r-- 1 guignard guignard 2197 oct 20 09:46 Po.pl
+-rw-r--r-- 1 guignard guignard 2229 oct 20 09:46 P.pl
+-rw-r--r-- 1 guignard guignard 1353 oct 20 09:46 Ps.pl
+-rw-r--r-- 1 guignard guignard  666 oct 20 09:46 Sc.pl
+-rw-r--r-- 1 guignard guignard  772 oct 20 09:46 Sk.pl
+-rw-r--r-- 1 guignard guignard 1191 oct 20 09:46 Sm.pl
+-rw-r--r-- 1 guignard guignard 2468 oct 20 09:46 So.pl
+-rw-r--r-- 1 guignard guignard 2934 oct 20 09:46 S.pl
+-rw-r--r-- 1 guignard guignard  566 oct 20 09:46 Z.pl
+-rw-r--r-- 1 guignard guignard  556 oct 20 09:46 Zs.pl
+
+./moins_facile/perl-base/unicore/lib/GCB:
+total 32
+-rw-r--r-- 1 guignard guignard  717 oct 20 09:46 CN.pl
+-rw-r--r-- 1 guignard guignard 3581 oct 20 09:46 EX.pl
+-rw-r--r-- 1 guignard guignard 5279 oct 20 09:46 LV.pl
+-rw-r--r-- 1 guignard guignard 5279 oct 20 09:46 LVT.pl
+-rw-r--r-- 1 guignard guignard 1929 oct 20 09:46 SM.pl
+-rw-r--r-- 1 guignard guignard 3296 oct 20 09:46 XX.pl
+
+./moins_facile/perl-base/unicore/lib/GrBase:
+total 12
+-rw-r--r-- 1 guignard guignard 8947 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Hex:
+total 4
+-rw-r--r-- 1 guignard guignard 545 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Hst:
+total 4
+-rw-r--r-- 1 guignard guignard 550 oct 20 09:46 NA.pl
+
+./moins_facile/perl-base/unicore/lib/Hyphen:
+total 4
+-rw-r--r-- 1 guignard guignard 594 oct 20 09:46 T.pl
+
+./moins_facile/perl-base/unicore/lib/IDC:
+total 8
+-rw-r--r-- 1 guignard guignard 7786 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Ideo:
+total 4
+-rw-r--r-- 1 guignard guignard 644 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/IDS:
+total 8
+-rw-r--r-- 1 guignard guignard 6730 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/In:
+total 120
+-rw-r--r-- 1 guignard guignard 3746 oct 20 09:46 2_0.pl
+-rw-r--r-- 1 guignard guignard 3746 oct 20 09:46 2_1.pl
+-rw-r--r-- 1 guignard guignard 4350 oct 20 09:46 3_0.pl
+-rw-r--r-- 1 guignard guignard 4802 oct 20 09:46 3_1.pl
+-rw-r--r-- 1 guignard guignard 4740 oct 20 09:46 3_2.pl
+-rw-r--r-- 1 guignard guignard 4924 oct 20 09:46 4_0.pl
+-rw-r--r-- 1 guignard guignard 5170 oct 20 09:46 4_1.pl
+-rw-r--r-- 1 guignard guignard 5298 oct 20 09:46 5_0.pl
+-rw-r--r-- 1 guignard guignard 5490 oct 20 09:46 5_1.pl
+-rw-r--r-- 1 guignard guignard 6002 oct 20 09:46 5_2.pl
+-rw-r--r-- 1 guignard guignard 6261 oct 20 09:46 6_0.pl
+-rw-r--r-- 1 guignard guignard 6759 oct 20 09:46 6_1.pl
+-rw-r--r-- 1 guignard guignard 6759 oct 20 09:46 6_2.pl
+-rw-r--r-- 1 guignard guignard 6759 oct 20 09:46 6_3.pl
+-rw-r--r-- 1 guignard guignard 7515 oct 20 09:46 7_0.pl
+-rw-r--r-- 1 guignard guignard 7665 oct 20 09:46 8_0.pl
+
+./moins_facile/perl-base/unicore/lib/InPC:
+total 48
+-rw-r--r-- 1 guignard guignard 1699 oct 20 09:46 Bottom.pl
+-rw-r--r-- 1 guignard guignard  628 oct 20 09:46 LeftAndR.pl
+-rw-r--r-- 1 guignard guignard  902 oct 20 09:46 Left.pl
+-rw-r--r-- 1 guignard guignard 2311 oct 20 09:46 NA.pl
+-rw-r--r-- 1 guignard guignard  533 oct 20 09:46 Overstru.pl
+-rw-r--r-- 1 guignard guignard 1981 oct 20 09:46 Right.pl
+-rw-r--r-- 1 guignard guignard  552 oct 20 09:46 TopAndBo.pl
+-rw-r--r-- 1 guignard guignard  531 oct 20 09:46 TopAndL2.pl
+-rw-r--r-- 1 guignard guignard  554 oct 20 09:46 TopAndLe.pl
+-rw-r--r-- 1 guignard guignard  584 oct 20 09:46 TopAndRi.pl
+-rw-r--r-- 1 guignard guignard 2125 oct 20 09:46 Top.pl
+-rw-r--r-- 1 guignard guignard  566 oct 20 09:46 VisualOr.pl
+
+./moins_facile/perl-base/unicore/lib/InSC:
+total 84
+-rw-r--r-- 1 guignard guignard  626 oct 20 09:46 Avagraha.pl
+-rw-r--r-- 1 guignard guignard  892 oct 20 09:46 Bindu.pl
+-rw-r--r-- 1 guignard guignard  576 oct 20 09:46 Cantilla.pl
+-rw-r--r-- 1 guignard guignard  608 oct 20 09:46 Consona2.pl
+-rw-r--r-- 1 guignard guignard  586 oct 20 09:46 Consona3.pl
+-rw-r--r-- 1 guignard guignard  586 oct 20 09:46 Consona4.pl
+-rw-r--r-- 1 guignard guignard  562 oct 20 09:46 Consona5.pl
+-rw-r--r-- 1 guignard guignard  531 oct 20 09:46 Consona6.pl
+-rw-r--r-- 1 guignard guignard 2019 oct 20 09:46 Consonan.pl
+-rw-r--r-- 1 guignard guignard  566 oct 20 09:46 Invisibl.pl
+-rw-r--r-- 1 guignard guignard  722 oct 20 09:46 Nukta.pl
+-rw-r--r-- 1 guignard guignard  918 oct 20 09:46 Number.pl
+-rw-r--r-- 1 guignard guignard 3459 oct 20 09:46 Other.pl
+-rw-r--r-- 1 guignard guignard  652 oct 20 09:46 PureKill.pl
+-rw-r--r-- 1 guignard guignard  618 oct 20 09:46 Syllable.pl
+-rw-r--r-- 1 guignard guignard  650 oct 20 09:46 ToneMark.pl
+-rw-r--r-- 1 guignard guignard  732 oct 20 09:46 Virama.pl
+-rw-r--r-- 1 guignard guignard  796 oct 20 09:46 Visarga.pl
+-rw-r--r-- 1 guignard guignard 1625 oct 20 09:46 VowelDep.pl
+-rw-r--r-- 1 guignard guignard 1241 oct 20 09:46 VowelInd.pl
+-rw-r--r-- 1 guignard guignard  548 oct 20 09:46 Vowel.pl
+
+./moins_facile/perl-base/unicore/lib/Jg:
+total 68
+-rw-r--r-- 1 guignard guignard 540 oct 20 09:46 Ain.pl
+-rw-r--r-- 1 guignard guignard 550 oct 20 09:46 Alef.pl
+-rw-r--r-- 1 guignard guignard 550 oct 20 09:46 Beh.pl
+-rw-r--r-- 1 guignard guignard 540 oct 20 09:46 Dal.pl
+-rw-r--r-- 1 guignard guignard 529 oct 20 09:46 FarsiYeh.pl
+-rw-r--r-- 1 guignard guignard 529 oct 20 09:46 Feh.pl
+-rw-r--r-- 1 guignard guignard 550 oct 20 09:46 Gaf.pl
+-rw-r--r-- 1 guignard guignard 570 oct 20 09:46 Hah.pl
+-rw-r--r-- 1 guignard guignard 529 oct 20 09:46 Kaf.pl
+-rw-r--r-- 1 guignard guignard 529 oct 20 09:46 Lam.pl
+-rw-r--r-- 1 guignard guignard 714 oct 20 09:46 NoJoinin.pl
+-rw-r--r-- 1 guignard guignard 529 oct 20 09:46 Qaf.pl
+-rw-r--r-- 1 guignard guignard 570 oct 20 09:46 Reh.pl
+-rw-r--r-- 1 guignard guignard 529 oct 20 09:46 Sad.pl
+-rw-r--r-- 1 guignard guignard 560 oct 20 09:46 Seen.pl
+-rw-r--r-- 1 guignard guignard 560 oct 20 09:46 Waw.pl
+-rw-r--r-- 1 guignard guignard 560 oct 20 09:46 Yeh.pl
+
+./moins_facile/perl-base/unicore/lib/Jt:
+total 20
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 C.pl
+-rw-r--r-- 1 guignard guignard 1047 oct 20 09:46 D.pl
+-rw-r--r-- 1 guignard guignard 1021 oct 20 09:46 R.pl
+-rw-r--r-- 1 guignard guignard 3527 oct 20 09:46 T.pl
+-rw-r--r-- 1 guignard guignard 3715 oct 20 09:46 U.pl
+
+./moins_facile/perl-base/unicore/lib/Lb:
+total 88
+-rw-r--r-- 1 guignard guignard 1581 oct 20 09:46 AI.pl
+-rw-r--r-- 1 guignard guignard 8299 oct 20 09:46 AL.pl
+-rw-r--r-- 1 guignard guignard 1436 oct 20 09:46 BA.pl
+-rw-r--r-- 1 guignard guignard  652 oct 20 09:46 BB.pl
+-rw-r--r-- 1 guignard guignard  790 oct 20 09:46 CJ.pl
+-rw-r--r-- 1 guignard guignard 1453 oct 20 09:46 CL.pl
+-rw-r--r-- 1 guignard guignard 2913 oct 20 09:46 CM.pl
+-rw-r--r-- 1 guignard guignard  734 oct 20 09:46 EX.pl
+-rw-r--r-- 1 guignard guignard  594 oct 20 09:46 GL.pl
+-rw-r--r-- 1 guignard guignard 1997 oct 20 09:46 ID.pl
+-rw-r--r-- 1 guignard guignard  533 oct 20 09:46 IN.pl
+-rw-r--r-- 1 guignard guignard  580 oct 20 09:46 IS.pl
+-rw-r--r-- 1 guignard guignard  678 oct 20 09:46 NS.pl
+-rw-r--r-- 1 guignard guignard 1441 oct 20 09:46 OP.pl
+-rw-r--r-- 1 guignard guignard  692 oct 20 09:46 PO.pl
+-rw-r--r-- 1 guignard guignard  702 oct 20 09:46 PR.pl
+-rw-r--r-- 1 guignard guignard  620 oct 20 09:46 QU.pl
+-rw-r--r-- 1 guignard guignard  926 oct 20 09:46 SA.pl
+-rw-r--r-- 1 guignard guignard 7404 oct 20 09:46 XX.pl
+
+./moins_facile/perl-base/unicore/lib/Lower:
+total 8
+-rw-r--r-- 1 guignard guignard 6986 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Math:
+total 4
+-rw-r--r-- 1 guignard guignard 2093 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/NFCQC:
+total 8
+-rw-r--r-- 1 guignard guignard  894 oct 20 09:46 M.pl
+-rw-r--r-- 1 guignard guignard 1641 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/NFDQC:
+total 8
+-rw-r--r-- 1 guignard guignard 2885 oct 20 09:46 N.pl
+-rw-r--r-- 1 guignard guignard 2887 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/NFKCQC:
+total 8
+-rw-r--r-- 1 guignard guignard 3321 oct 20 09:46 N.pl
+-rw-r--r-- 1 guignard guignard 3691 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/NFKDQC:
+total 16
+-rw-r--r-- 1 guignard guignard 4791 oct 20 09:46 N.pl
+-rw-r--r-- 1 guignard guignard 4793 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Nt:
+total 12
+-rw-r--r-- 1 guignard guignard  702 oct 20 09:46 Di.pl
+-rw-r--r-- 1 guignard guignard 2629 oct 20 09:46 None.pl
+-rw-r--r-- 1 guignard guignard 2149 oct 20 09:46 Nu.pl
+
+./moins_facile/perl-base/unicore/lib/Nv:
+total 188
+-rw-r--r-- 1 guignard guignard 1257 oct 20 09:46 0.pl
+-rw-r--r-- 1 guignard guignard  594 oct 20 09:46 10000.pl
+-rw-r--r-- 1 guignard guignard  710 oct 20 09:46 1000.pl
+-rw-r--r-- 1 guignard guignard  828 oct 20 09:46 100.pl
+-rw-r--r-- 1 guignard guignard 1062 oct 20 09:46 10.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 11.pl
+-rw-r--r-- 1 guignard guignard  624 oct 20 09:46 1_2.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 12.pl
+-rw-r--r-- 1 guignard guignard  560 oct 20 09:46 1_3.pl
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 13.pl
+-rw-r--r-- 1 guignard guignard  612 oct 20 09:46 1_4.pl
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 14.pl
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 15.pl
+-rw-r--r-- 1 guignard guignard  540 oct 20 09:46 16.pl
+-rw-r--r-- 1 guignard guignard  540 oct 20 09:46 17.pl
+-rw-r--r-- 1 guignard guignard  544 oct 20 09:46 1_8.pl
+-rw-r--r-- 1 guignard guignard  540 oct 20 09:46 18.pl
+-rw-r--r-- 1 guignard guignard  540 oct 20 09:46 19.pl
+-rw-r--r-- 1 guignard guignard 1787 oct 20 09:46 1.pl
+-rw-r--r-- 1 guignard guignard  537 oct 20 09:46 200.pl
+-rw-r--r-- 1 guignard guignard  842 oct 20 09:46 20.pl
+-rw-r--r-- 1 guignard guignard  572 oct 20 09:46 2_3.pl
+-rw-r--r-- 1 guignard guignard 1789 oct 20 09:46 2.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 300.pl
+-rw-r--r-- 1 guignard guignard  672 oct 20 09:46 30.pl
+-rw-r--r-- 1 guignard guignard  564 oct 20 09:46 3_4.pl
+-rw-r--r-- 1 guignard guignard 1771 oct 20 09:46 3.pl
+-rw-r--r-- 1 guignard guignard  537 oct 20 09:46 400.pl
+-rw-r--r-- 1 guignard guignard  674 oct 20 09:46 40.pl
+-rw-r--r-- 1 guignard guignard 1703 oct 20 09:46 4.pl
+-rw-r--r-- 1 guignard guignard  548 oct 20 09:46 50000.pl
+-rw-r--r-- 1 guignard guignard  560 oct 20 09:46 5000.pl
+-rw-r--r-- 1 guignard guignard  606 oct 20 09:46 500.pl
+-rw-r--r-- 1 guignard guignard  760 oct 20 09:46 50.pl
+-rw-r--r-- 1 guignard guignard 1723 oct 20 09:46 5.pl
+-rw-r--r-- 1 guignard guignard  537 oct 20 09:46 600.pl
+-rw-r--r-- 1 guignard guignard  610 oct 20 09:46 60.pl
+-rw-r--r-- 1 guignard guignard 1577 oct 20 09:46 6.pl
+-rw-r--r-- 1 guignard guignard  537 oct 20 09:46 700.pl
+-rw-r--r-- 1 guignard guignard  610 oct 20 09:46 70.pl
+-rw-r--r-- 1 guignard guignard 1543 oct 20 09:46 7.pl
+-rw-r--r-- 1 guignard guignard  537 oct 20 09:46 800.pl
+-rw-r--r-- 1 guignard guignard  598 oct 20 09:46 80.pl
+-rw-r--r-- 1 guignard guignard 1505 oct 20 09:46 8.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 900.pl
+-rw-r--r-- 1 guignard guignard  598 oct 20 09:46 90.pl
+-rw-r--r-- 1 guignard guignard 1531 oct 20 09:46 9.pl
+
+./moins_facile/perl-base/unicore/lib/PatSyn:
+total 4
+-rw-r--r-- 1 guignard guignard 747 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Perl:
+total 124
+-rw-r--r-- 1 guignard guignard 7714 oct 20 09:46 Alnum.pl
+-rw-r--r-- 1 guignard guignard 7525 oct 20 09:46 Assigned.pl
+-rw-r--r-- 1 guignard guignard  561 oct 20 09:46 Blank.pl
+-rw-r--r-- 1 guignard guignard 7574 oct 20 09:46 Graph.pl
+-rw-r--r-- 1 guignard guignard 1673 oct 20 09:46 _PerlAny.pl
+-rw-r--r-- 1 guignard guignard 7896 oct 20 09:46 _PerlCh2.pl
+-rw-r--r-- 1 guignard guignard 6788 oct 20 09:46 _PerlCha.pl
+-rw-r--r-- 1 guignard guignard  772 oct 20 09:46 _PerlFol.pl
+-rw-r--r-- 1 guignard guignard 7870 oct 20 09:46 _PerlIDC.pl
+-rw-r--r-- 1 guignard guignard 6830 oct 20 09:46 _PerlIDS.pl
+-rw-r--r-- 1 guignard guignard  742 oct 20 09:46 _PerlNch.pl
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 _PerlPat.pl
+-rw-r--r-- 1 guignard guignard  602 oct 20 09:46 _PerlPr2.pl
+-rw-r--r-- 1 guignard guignard  594 oct 20 09:46 _PerlPro.pl
+-rw-r--r-- 1 guignard guignard  880 oct 20 09:46 _PerlQuo.pl
+-rw-r--r-- 1 guignard guignard  514 oct 20 09:46 PerlWord.pl
+-rw-r--r-- 1 guignard guignard  515 oct 20 09:46 PosixPun.pl
+-rw-r--r-- 1 guignard guignard 7544 oct 20 09:46 Print.pl
+-rw-r--r-- 1 guignard guignard  579 oct 20 09:46 SpacePer.pl
+-rw-r--r-- 1 guignard guignard  582 oct 20 09:46 Title.pl
+-rw-r--r-- 1 guignard guignard 7842 oct 20 09:46 Word.pl
+-rw-r--r-- 1 guignard guignard 2197 oct 20 09:46 XPosixPu.pl
+
+./moins_facile/perl-base/unicore/lib/QMark:
+total 4
+-rw-r--r-- 1 guignard guignard 622 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/SB:
+total 68
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 AT.pl
+-rw-r--r-- 1 guignard guignard  962 oct 20 09:46 CL.pl
+-rw-r--r-- 1 guignard guignard 3087 oct 20 09:46 EX.pl
+-rw-r--r-- 1 guignard guignard  690 oct 20 09:46 FO.pl
+-rw-r--r-- 1 guignard guignard 5607 oct 20 09:46 LE.pl
+-rw-r--r-- 1 guignard guignard 6978 oct 20 09:46 LO.pl
+-rw-r--r-- 1 guignard guignard 1041 oct 20 09:46 NU.pl
+-rw-r--r-- 1 guignard guignard  694 oct 20 09:46 SC.pl
+-rw-r--r-- 1 guignard guignard  567 oct 20 09:46 Sp.pl
+-rw-r--r-- 1 guignard guignard 1173 oct 20 09:46 ST.pl
+-rw-r--r-- 1 guignard guignard 6958 oct 20 09:46 UP.pl
+-rw-r--r-- 1 guignard guignard 8583 oct 20 09:46 XX.pl
+
+./moins_facile/perl-base/unicore/lib/Sc:
+total 168
+-rw-r--r-- 1 guignard guignard 1183 oct 20 09:46 Arab.pl
+-rw-r--r-- 1 guignard guignard  552 oct 20 09:46 Armn.pl
+-rw-r--r-- 1 guignard guignard  630 oct 20 09:46 Beng.pl
+-rw-r--r-- 1 guignard guignard  537 oct 20 09:46 Cham.pl
+-rw-r--r-- 1 guignard guignard  562 oct 20 09:46 Cprt.pl
+-rw-r--r-- 1 guignard guignard  566 oct 20 09:46 Cyrl.pl
+-rw-r--r-- 1 guignard guignard  531 oct 20 09:46 Deva.pl
+-rw-r--r-- 1 guignard guignard  560 oct 20 09:46 Dupl.pl
+-rw-r--r-- 1 guignard guignard  838 oct 20 09:46 Ethi.pl
+-rw-r--r-- 1 guignard guignard  576 oct 20 09:46 Geor.pl
+-rw-r--r-- 1 guignard guignard  670 oct 20 09:46 Gran.pl
+-rw-r--r-- 1 guignard guignard  840 oct 20 09:46 Grek.pl
+-rw-r--r-- 1 guignard guignard  630 oct 20 09:46 Gujr.pl
+-rw-r--r-- 1 guignard guignard  650 oct 20 09:46 Guru.pl
+-rw-r--r-- 1 guignard guignard  656 oct 20 09:46 Hang.pl
+-rw-r--r-- 1 guignard guignard  692 oct 20 09:46 Han.pl
+-rw-r--r-- 1 guignard guignard  592 oct 20 09:46 Hebr.pl
+-rw-r--r-- 1 guignard guignard  541 oct 20 09:46 Hira.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 Hmng.pl
+-rw-r--r-- 1 guignard guignard  588 oct 20 09:46 Kana.pl
+-rw-r--r-- 1 guignard guignard  586 oct 20 09:46 Khar.pl
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 Khmr.pl
+-rw-r--r-- 1 guignard guignard  630 oct 20 09:46 Knda.pl
+-rw-r--r-- 1 guignard guignard  540 oct 20 09:46 Lana.pl
+-rw-r--r-- 1 guignard guignard  670 oct 20 09:46 Lao.pl
+-rw-r--r-- 1 guignard guignard  801 oct 20 09:46 Latn.pl
+-rw-r--r-- 1 guignard guignard  540 oct 20 09:46 Limb.pl
+-rw-r--r-- 1 guignard guignard  574 oct 20 09:46 Linb.pl
+-rw-r--r-- 1 guignard guignard  600 oct 20 09:46 Mlym.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 Mong.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 Mult.pl
+-rw-r--r-- 1 guignard guignard  630 oct 20 09:46 Orya.pl
+-rw-r--r-- 1 guignard guignard  622 oct 20 09:46 Sinh.pl
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 Talu.pl
+-rw-r--r-- 1 guignard guignard  650 oct 20 09:46 Taml.pl
+-rw-r--r-- 1 guignard guignard  620 oct 20 09:46 Telu.pl
+-rw-r--r-- 1 guignard guignard  560 oct 20 09:46 Tibt.pl
+-rw-r--r-- 1 guignard guignard  537 oct 20 09:46 Xsux.pl
+-rw-r--r-- 1 guignard guignard  790 oct 20 09:46 Zinh.pl
+-rw-r--r-- 1 guignard guignard 2417 oct 20 09:46 Zyyy.pl
+-rw-r--r-- 1 guignard guignard 7492 oct 20 09:46 Zzzz.pl
+
+./moins_facile/perl-base/unicore/lib/Scx:
+total 172
+-rw-r--r-- 1 guignard guignard 1145 oct 20 09:46 Arab.pl
+-rw-r--r-- 1 guignard guignard  552 oct 20 09:46 Armn.pl
+-rw-r--r-- 1 guignard guignard  650 oct 20 09:46 Beng.pl
+-rw-r--r-- 1 guignard guignard  726 oct 20 09:46 Bopo.pl
+-rw-r--r-- 1 guignard guignard  533 oct 20 09:46 Cakm.pl
+-rw-r--r-- 1 guignard guignard  534 oct 20 09:46 Copt.pl
+-rw-r--r-- 1 guignard guignard  598 oct 20 09:46 Cprt.pl
+-rw-r--r-- 1 guignard guignard  556 oct 20 09:46 Cyrl.pl
+-rw-r--r-- 1 guignard guignard  554 oct 20 09:46 Deva.pl
+-rw-r--r-- 1 guignard guignard  560 oct 20 09:46 Dupl.pl
+-rw-r--r-- 1 guignard guignard  586 oct 20 09:46 Geor.pl
+-rw-r--r-- 1 guignard guignard  535 oct 20 09:46 Glag.pl
+-rw-r--r-- 1 guignard guignard  770 oct 20 09:46 Gran.pl
+-rw-r--r-- 1 guignard guignard  856 oct 20 09:46 Grek.pl
+-rw-r--r-- 1 guignard guignard  662 oct 20 09:46 Gujr.pl
+-rw-r--r-- 1 guignard guignard  682 oct 20 09:46 Guru.pl
+-rw-r--r-- 1 guignard guignard  836 oct 20 09:46 Hang.pl
+-rw-r--r-- 1 guignard guignard  862 oct 20 09:46 Han.pl
+-rw-r--r-- 1 guignard guignard  782 oct 20 09:46 Hira.pl
+-rw-r--r-- 1 guignard guignard  756 oct 20 09:46 Kana.pl
+-rw-r--r-- 1 guignard guignard  670 oct 20 09:46 Knda.pl
+-rw-r--r-- 1 guignard guignard  851 oct 20 09:46 Latn.pl
+-rw-r--r-- 1 guignard guignard  550 oct 20 09:46 Limb.pl
+-rw-r--r-- 1 guignard guignard  610 oct 20 09:46 Linb.pl
+-rw-r--r-- 1 guignard guignard  630 oct 20 09:46 Mlym.pl
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 Mong.pl
+-rw-r--r-- 1 guignard guignard  560 oct 20 09:46 Mult.pl
+-rw-r--r-- 1 guignard guignard  535 oct 20 09:46 Mymr.pl
+-rw-r--r-- 1 guignard guignard  650 oct 20 09:46 Orya.pl
+-rw-r--r-- 1 guignard guignard  535 oct 20 09:46 Phlp.pl
+-rw-r--r-- 1 guignard guignard  564 oct 20 09:46 Shrd.pl
+-rw-r--r-- 1 guignard guignard  535 oct 20 09:46 Sind.pl
+-rw-r--r-- 1 guignard guignard  632 oct 20 09:46 Sinh.pl
+-rw-r--r-- 1 guignard guignard  580 oct 20 09:46 Syrc.pl
+-rw-r--r-- 1 guignard guignard  529 oct 20 09:46 Tagb.pl
+-rw-r--r-- 1 guignard guignard  535 oct 20 09:46 Takr.pl
+-rw-r--r-- 1 guignard guignard  692 oct 20 09:46 Taml.pl
+-rw-r--r-- 1 guignard guignard  650 oct 20 09:46 Telu.pl
+-rw-r--r-- 1 guignard guignard  564 oct 20 09:46 Thaa.pl
+-rw-r--r-- 1 guignard guignard  535 oct 20 09:46 Tirh.pl
+-rw-r--r-- 1 guignard guignard  574 oct 20 09:46 Yi.pl
+-rw-r--r-- 1 guignard guignard  670 oct 20 09:46 Zinh.pl
+-rw-r--r-- 1 guignard guignard 2151 oct 20 09:46 Zyyy.pl
+
+./moins_facile/perl-base/unicore/lib/SD:
+total 4
+-rw-r--r-- 1 guignard guignard 842 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/STerm:
+total 4
+-rw-r--r-- 1 guignard guignard 1203 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Term:
+total 4
+-rw-r--r-- 1 guignard guignard 1473 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/UIdeo:
+total 4
+-rw-r--r-- 1 guignard guignard 654 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/Upper:
+total 8
+-rw-r--r-- 1 guignard guignard 6928 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/WB:
+total 48
+-rw-r--r-- 1 guignard guignard  552 oct 20 09:46 EX.pl
+-rw-r--r-- 1 guignard guignard  680 oct 20 09:46 FO.pl
+-rw-r--r-- 1 guignard guignard  606 oct 20 09:46 HL.pl
+-rw-r--r-- 1 guignard guignard  600 oct 20 09:46 KA.pl
+-rw-r--r-- 1 guignard guignard 5957 oct 20 09:46 LE.pl
+-rw-r--r-- 1 guignard guignard  552 oct 20 09:46 MB.pl
+-rw-r--r-- 1 guignard guignard  576 oct 20 09:46 ML.pl
+-rw-r--r-- 1 guignard guignard  632 oct 20 09:46 MN.pl
+-rw-r--r-- 1 guignard guignard 1041 oct 20 09:46 NU.pl
+-rw-r--r-- 1 guignard guignard 7978 oct 20 09:46 XX.pl
+
+./moins_facile/perl-base/unicore/lib/XIDC:
+total 8
+-rw-r--r-- 1 guignard guignard 7870 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/lib/XIDS:
+total 8
+-rw-r--r-- 1 guignard guignard 6814 oct 20 09:46 Y.pl
+
+./moins_facile/perl-base/unicore/To:
+total 968
+-rw-r--r-- 1 guignard guignard  17925 oct 20 09:46 Age.pl
+-rw-r--r-- 1 guignard guignard   7925 oct 20 09:46 Bc.pl
+-rw-r--r-- 1 guignard guignard   5118 oct 20 09:46 Bmg.pl
+-rw-r--r-- 1 guignard guignard   2125 oct 20 09:46 Bpb.pl
+-rw-r--r-- 1 guignard guignard   1692 oct 20 09:46 Bpt.pl
+-rw-r--r-- 1 guignard guignard  15381 oct 20 09:46 Cf.pl
+-rw-r--r-- 1 guignard guignard   5673 oct 20 09:46 Digit.pl
+-rw-r--r-- 1 guignard guignard   2980 oct 20 09:46 Ea.pl
+-rw-r--r-- 1 guignard guignard  22741 oct 20 09:46 Fold.pl
+-rw-r--r-- 1 guignard guignard  17439 oct 20 09:46 GCB.pl
+-rw-r--r-- 1 guignard guignard  31753 oct 20 09:46 Gc.pl
+-rw-r--r-- 1 guignard guignard   9998 oct 20 09:46 Hst.pl
+-rw-r--r-- 1 guignard guignard   7712 oct 20 09:46 InPC.pl
+-rw-r--r-- 1 guignard guignard  13326 oct 20 09:46 InSC.pl
+-rw-r--r-- 1 guignard guignard    798 oct 20 09:46 Isc.pl
+-rw-r--r-- 1 guignard guignard   3112 oct 20 09:46 Jg.pl
+-rw-r--r-- 1 guignard guignard   4702 oct 20 09:46 Jt.pl
+-rw-r--r-- 1 guignard guignard  29045 oct 20 09:46 Lb.pl
+-rw-r--r-- 1 guignard guignard   8187 oct 20 09:46 Lc.pl
+-rw-r--r-- 1 guignard guignard  15524 oct 20 09:46 Lower.pl
+-rw-r--r-- 1 guignard guignard  63563 oct 20 09:46 Na1.pl
+-rw-r--r-- 1 guignard guignard  13366 oct 20 09:46 NameAlia.pl
+-rw-r--r-- 1 guignard guignard   1751 oct 20 09:46 NFCQC.pl
+-rw-r--r-- 1 guignard guignard   2920 oct 20 09:46 NFDQC.pl
+-rw-r--r-- 1 guignard guignard 398291 oct 20 09:46 NFKCCF.pl
+-rw-r--r-- 1 guignard guignard   3714 oct 20 09:46 NFKCQC.pl
+-rw-r--r-- 1 guignard guignard   4719 oct 20 09:46 NFKDQC.pl
+-rw-r--r-- 1 guignard guignard   4211 oct 20 09:46 Nt.pl
+-rw-r--r-- 1 guignard guignard   7517 oct 20 09:46 Nv.pl
+-rw-r--r-- 1 guignard guignard   1621 oct 20 09:46 PerlDeci.pl
+-rw-r--r-- 1 guignard guignard  28370 oct 20 09:46 _PerlLB.pl
+-rw-r--r-- 1 guignard guignard  15388 oct 20 09:46 _PerlWB.pl
+-rw-r--r-- 1 guignard guignard  31093 oct 20 09:46 SB.pl
+-rw-r--r-- 1 guignard guignard  15111 oct 20 09:46 Sc.pl
+-rw-r--r-- 1 guignard guignard  17831 oct 20 09:46 Scx.pl
+-rw-r--r-- 1 guignard guignard  11534 oct 20 09:46 Tc.pl
+-rw-r--r-- 1 guignard guignard  18899 oct 20 09:46 Title.pl
+-rw-r--r-- 1 guignard guignard  15206 oct 20 09:46 Uc.pl
+-rw-r--r-- 1 guignard guignard  22274 oct 20 09:46 Upper.pl
+-rw-r--r-- 1 guignard guignard  15165 oct 20 09:46 WB.pl
+
+./moins_facile/perl-base/warnings:
+total 4
+-rw-r--r-- 1 guignard guignard 488 oct 20 09:46 register.pm
+
+./moins_facile/pkcs11:
+total 12
+lrwxrwxrwx 1 guignard guignard 74 jan 26 17:41 onepin-opensc-pkcs11.so -> /home/guignard/Documents/syncthing/moins_facile/../onepin-opensc-pkcs11.so
+lrwxrwxrwx 1 guignard guignard 67 jan 26 17:41 opensc-pkcs11.so -> /home/guignard/Documents/syncthing/moins_facile/../opensc-pkcs11.so
+lrwxrwxrwx 1 guignard guignard 64 jan 26 17:41 pkcs11-spy.so -> /home/guignard/Documents/syncthing/moins_facile/../pkcs11-spy.so
+
+./moins_facile/rsyslog:
+total 652
+-rw-r--r-- 1 guignard guignard 40440 oct 20 09:46 imfile.so
+-rw-r--r-- 1 guignard guignard 23720 oct 20 09:46 imjournal.so
+-rw-r--r-- 1 guignard guignard 19448 oct 20 09:46 imklog.so
+-rw-r--r-- 1 guignard guignard 15224 oct 20 09:46 imkmsg.so
+-rw-r--r-- 1 guignard guignard 10808 oct 20 09:46 immark.so
+-rw-r--r-- 1 guignard guignard 19528 oct 20 09:46 impstats.so
+-rw-r--r-- 1 guignard guignard 40536 oct 20 09:46 imptcp.so
+-rw-r--r-- 1 guignard guignard 19864 oct 20 09:46 imtcp.so
+-rw-r--r-- 1 guignard guignard 28168 oct 20 09:46 imudp.so
+-rw-r--r-- 1 guignard guignard 32648 oct 20 09:46 imuxsock.so
+-rw-r--r-- 1 guignard guignard 23128 oct 20 09:46 lmnet.so
+-rw-r--r-- 1 guignard guignard 16472 oct 20 09:46 lmnetstrms.so
+-rw-r--r-- 1 guignard guignard 24856 oct 20 09:46 lmnsd_ptcp.so
+-rw-r--r-- 1 guignard guignard  6136 oct 20 09:46 lmregexp.so
+-rw-r--r-- 1 guignard guignard 20792 oct 20 09:46 lmstrmsrv.so
+-rw-r--r-- 1 guignard guignard 10232 oct 20 09:46 lmtcpclt.so
+-rw-r--r-- 1 guignard guignard 33464 oct 20 09:46 lmtcpsrv.so
+-rw-r--r-- 1 guignard guignard 10232 oct 20 09:46 lmzlibw.so
+-rw-r--r-- 1 guignard guignard 14440 oct 20 09:46 mmanon.so
+-rw-r--r-- 1 guignard guignard 18552 oct 20 09:46 mmexternal.so
+-rw-r--r-- 1 guignard guignard 14440 oct 20 09:46 mmjsonparse.so
+-rw-r--r-- 1 guignard guignard 14488 oct 20 09:46 mmnormalize.so
+-rw-r--r-- 1 guignard guignard 14392 oct 20 09:46 mmpstrucdata.so
+-rw-r--r-- 1 guignard guignard 14488 oct 20 09:46 mmsequence.so
+-rw-r--r-- 1 guignard guignard 10328 oct 20 09:46 mmutf8fix.so
+-rw-r--r-- 1 guignard guignard 14392 oct 20 09:46 omjournal.so
+-rw-r--r-- 1 guignard guignard 19224 oct 20 09:46 ommail.so
+-rw-r--r-- 1 guignard guignard 22680 oct 20 09:46 omprog.so
+-rw-r--r-- 1 guignard guignard 14872 oct 20 09:46 omuxsock.so
+-rw-r--r-- 1 guignard guignard 11000 oct 20 09:46 pmaixforwardedfrom.so
+-rw-r--r-- 1 guignard guignard 11000 oct 20 09:46 pmcisconames.so
+-rw-r--r-- 1 guignard guignard 11000 oct 20 09:46 pmlastmsg.so
+-rw-r--r-- 1 guignard guignard 11000 oct 20 09:46 pmsnare.so
+
+./moins_facile/sasl2:
+total 260
+lrwxrwxrwx 1 guignard guignard    70 jan 26 17:41 libanonymous.so -> /home/guignard/Documents/syncthing/moins_facile/libanonymous.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    70 jan 26 17:41 libanonymous.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libanonymous.so.2.0.25
+-rw-r--r-- 1 guignard guignard 18496 oct 20 09:46 libanonymous.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    68 jan 26 17:41 libcrammd5.so -> /home/guignard/Documents/syncthing/moins_facile/libcrammd5.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    68 jan 26 17:41 libcrammd5.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libcrammd5.so.2.0.25
+-rw-r--r-- 1 guignard guignard 22592 oct 20 09:46 libcrammd5.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    70 jan 26 17:41 libdigestmd5.so -> /home/guignard/Documents/syncthing/moins_facile/libdigestmd5.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    70 jan 26 17:41 libdigestmd5.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libdigestmd5.so.2.0.25
+-rw-r--r-- 1 guignard guignard 55752 oct 20 09:46 libdigestmd5.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    66 jan 26 17:41 liblogin.so -> /home/guignard/Documents/syncthing/moins_facile/liblogin.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    66 jan 26 17:41 liblogin.so.2 -> /home/guignard/Documents/syncthing/moins_facile/liblogin.so.2.0.25
+-rw-r--r-- 1 guignard guignard 18496 oct 20 09:46 liblogin.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    65 jan 26 17:41 libntlm.so -> /home/guignard/Documents/syncthing/moins_facile/libntlm.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    65 jan 26 17:41 libntlm.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libntlm.so.2.0.25
+-rw-r--r-- 1 guignard guignard 34880 oct 20 09:46 libntlm.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    66 jan 26 17:41 libplain.so -> /home/guignard/Documents/syncthing/moins_facile/libplain.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    66 jan 26 17:41 libplain.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libplain.so.2.0.25
+-rw-r--r-- 1 guignard guignard 18496 oct 20 09:46 libplain.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    67 jan 26 17:41 libsasldb.so -> /home/guignard/Documents/syncthing/moins_facile/libsasldb.so.2.0.25
+lrwxrwxrwx 1 guignard guignard    67 jan 26 17:41 libsasldb.so.2 -> /home/guignard/Documents/syncthing/moins_facile/libsasldb.so.2.0.25
+-rw-r--r-- 1 guignard guignard 26536 oct 20 09:46 libsasldb.so.2.0.25
+guignard@YOGRAC:~/Documents/syncthing$ 

@@ -1,0 +1,27 @@
+guignard@YOGRAC:~/Documents/syncthing$ pwd
+/home/guignard/Documents/syncthing
+guignard@YOGRAC:~/Documents/syncthing$ ls -R -l
+.:
+total 4
+drwxr-xr-x 3 guignard guignard 4096 jan 26 17:30 guizell
+
+./guizell:
+total 13032
+-rw-r--r-- 1 guignard guignard  105840 jan 11 18:06 105.8k.txt
+-rw-r--r-- 1 guignard guignard  151194 jan 11 18:06 151.2k.txt
+-rw-r--r-- 1 guignard guignard   15132 jan 11 17:58 15.1k.txt
+-rw-r--r-- 1 guignard guignard  241898 jan 11 18:06 241.9k.txt
+-rw-r--r-- 1 guignard guignard 6530986 jan 11 18:05 6.5m.txt
+-rw-r--r-- 1 guignard guignard  725674 jan 11 18:06 725.7k.txt
+-rw-r--r-- 1 guignard guignard       6 jan 26 09:46 hello.txt
+-rw-r--r-- 1 guignard guignard 1293285 jan 26 17:28 new_file_bigger.txt
+-rw-r--r-- 1 guignard guignard 1179648 jan 26 17:28 new_file_bigger.txt.tmp
+-rw-r--r-- 1 guignard guignard      10 jan 26 17:30 new_file.txt
+drwxr-xr-x 2 guignard guignard    4096 jan 26 17:23 test
+-rw-r--r-- 1 guignard guignard      10 jan 26 11:50 test.txt
+-rw-r--r-- 1 guignard guignard 4249163 jan 11 21:57 Untitled.png
+
+./guizell/test:
+total 6380
+-rw-r--r-- 1 guignard guignard 6530986 jan 11 18:05 6.5m.txt
+guignard@YOGRAC:~/Documents/syncthing$ 

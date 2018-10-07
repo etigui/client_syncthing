@@ -1,0 +1,405 @@
+/home/guignard/Documents/git/cpr_project/syncthing/venv/bin/python /home/guignard/Documents/git/cpr_project/syncthing/main.py -d /home/guignard/Documents/syncthing/ -c /home/guignard/Documents/git/cpr_project/auth/etienne/cert.pem -k /home/guignard/Documents/git/cpr_project/auth/etienne/key.pem -i 192.168.1.111 -p 22000 -v
+Device id: 6VLHB4K-T5MXNDK-FO7UGV6-GWXU3FH-PHCJJRD-PWVUAXW-L6L42HY-UBMPNQZ
+
+Connected on Syncthing node: 192.168.1.111:22000
+Device remote name:    ADMINROOT-PC
+Client remote name:    syncthing
+Client remote version: v0.14.43
+
+[17:22:23] Received: MSG_CLUSTER_CONFIG
+Folder name:  facile
+
+Id:           0x10b89c29bfdcacce7a0398acaabb01ee25d5b56f830e06ff8370a57f6b0c3fa3
+Name:         ADMINROOT-PC
+Addresses:    ['dynamic']
+Max sequence: 4
+Compression:  0
+Index_id:     435697530368062861
+
+Id:           0xf55670f153eb2ed195dfa1abe35af4d95e7125311bed5a02ebf2f9a3e28163db
+Name:         cpr_project
+Addresses:    ['dynamic']
+Max sequence: 4
+Compression:  1
+Index_id:     13199050400835161213
+
+Folder name:  guizell
+
+Id:           0x10b89c29bfdcacce7a0398acaabb01ee25d5b56f830e06ff8370a57f6b0c3fa3
+Name:         ADMINROOT-PC
+Addresses:    ['dynamic']
+Max sequence: 182
+Compression:  0
+Index_id:     1773704682443194388
+
+Id:           0x11b25aab6a72d1f0bc512c6f8aee8f23cdb6f7954ae88f205ba2064b2af01ba3
+Name:         Quentin
+Addresses:    ['dynamic']
+Max sequence: 0
+Compression:  1
+Index_id:     0
+
+Id:           0xabf1a8dedf2febb114e482bc6792a5633373cc8372c8a269346ea2fdf8982c3d
+Name:         Quentin_v2
+Addresses:    ['dynamic']
+Max sequence: 217
+Compression:  1
+Index_id:     10341815744083379130
+
+Id:           0xf55670f153eb2ed195dfa1abe35af4d95e7125311bed5a02ebf2f9a3e28163db
+Name:         cpr_project
+Addresses:    ['dynamic']
+Max sequence: 32
+Compression:  1
+Index_id:     1008132928764136997
+
+Folder name:  moins_facile
+
+Id:           0x10b89c29bfdcacce7a0398acaabb01ee25d5b56f830e06ff8370a57f6b0c3fa3
+Name:         ADMINROOT-PC
+Addresses:    ['dynamic']
+Max sequence: 1194
+Compression:  0
+Index_id:     14117749516787549791
+
+Id:           0xf55670f153eb2ed195dfa1abe35af4d95e7125311bed5a02ebf2f9a3e28163db
+Name:         cpr_project
+Addresses:    ['dynamic']
+Max sequence: 1194
+Compression:  1
+Index_id:     7630812573025698209
+
+Folder name:  small
+
+Id:           0x10b89c29bfdcacce7a0398acaabb01ee25d5b56f830e06ff8370a57f6b0c3fa3
+Name:         ADMINROOT-PC
+Addresses:    ['dynamic']
+Max sequence: 22
+Compression:  0
+Index_id:     1146250807363109858
+
+Id:           0xf55670f153eb2ed195dfa1abe35af4d95e7125311bed5a02ebf2f9a3e28163db
+Name:         cpr_project
+Addresses:    ['dynamic']
+Max sequence: 13
+Compression:  1
+Index_id:     2078915989846231800
+
+[17:22:23] Received: MSG_INDEX
+Folder name:        guizell
+
+File name:          10-million-combos.txt
+File name:          docc.txt
+File name:          folder
+File name:          folder/coucou
+File name:          folder/coucou2
+File name:          folder/coucou3
+File name:          folder/coucou4
+File name:          folder/coucou5
+File name:          folder/dd
+File name:          folder/file.txt
+File name:          folder/keys
+File name:          rnd.txt
+File name:          38m.txt
+File name:          Untitled.png
+File name:          104k - Copy.txt
+File name:          148k - Copy.txt
+File name:          15k - Copy.txt
+File name:          237k - Copy.txt
+File name:          6m - Copy.txt
+File name:          709k - Copy.txt
+File name:          start_end - Copy.txt
+File name:          15.1k.txt
+File name:          6.5m.txt
+File name:          15k.txt
+File name:          6m.txt
+File name:          105.8k.txt
+File name:          104k.txt
+File name:          148k.txt
+File name:          237k.txt
+File name:          709k.txt
+File name:          151.1.txt
+File name:          241.8.txt
+File name:          725.6.txt
+File name:          Nouveau dossier/eth-proxy.conf
+File name:          Nouveau dossier/CefSharp.dll
+File name:          Nouveau dossier/README.md
+File name:          Nouveau dossier/cef_200_percent.pak
+File name:          Nouveau dossier/cef_extensions.pak
+File name:          New ATL MFC Trace Tool settings file.trc
+File name:          Nouveau dossier/Nouveau dossier (2)
+File name:          Nouveau dossier/Nouveau dossier
+File name:          55.trc
+File name:          151.2k.txt
+File name:          241.9k.txt
+File name:          725.7k.txt
+File name:          151.2.txt
+File name:          22545588.txt
+File name:          241.9.txt
+File name:          255878.txt
+File name:          33333333333.vsd
+File name:          444455.txt
+File name:          45489489484.txt
+File name:          45678744.txt
+File name:          5464.bmp
+File name:          5555.txt
+File name:          55555.bmp
+File name:          66.txt
+File name:          725.7.txt
+File name:          78.txt
+File name:          787.txt
+File name:          787987988+.zip
+File name:          78949484.txt
+File name:          87897.trc
+File name:          885585.txt
+File name:          New Bitmap Image.bmp
+File name:          New Briefcase
+File name:          New Briefcase/Briefcase Database
+File name:          New Briefcase/desktop.ini
+File name:          New Compressed (zipped) Folder.zip
+File name:          New Dessin Microsoft Visio.vsd
+File name:          start_end.txt
+File name:          Nouveau dossier
+File name:          Nouveau dossier/Nouveau Document Microsoft Word.docx
+File name:          Nouveau dossier/Nouveau Microsoft Access Database.accdb
+File name:          Nouveau dossier/blabla.txt
+File name:          Nouveau dossier/wadqwa.contact
+File name:          89563.txt
+File name:          uuuu.txt
+File name:          5525.txt
+File name:          787878.txt
+File name:          456.txt
+File name:          5559.txt
+File name:          666.txt
+File name:          333.txt
+File name:          1598.txt
+File name:          254545.txt
+File name:          test
+File name:          test/6.5m.txt
+File name:          hello.txt
+File name:          test.txt
+[17:22:23] Folder created: /home/guignard/Documents/syncthing/guizell/test
+[17:22:23] Begin request block for file: /home/guignard/Documents/syncthing/guizell/Untitled.png
+[17:22:24] Received: MSG_RESPONSE
+[17:22:24] Received: MSG_RESPONSE
+[17:22:24] Received: MSG_RESPONSE
+[17:22:25] Received: MSG_RESPONSE
+[17:22:25] Received: MSG_RESPONSE
+[17:22:25] Received: MSG_RESPONSE
+[17:22:26] Received: MSG_RESPONSE
+[17:22:26] Received: MSG_RESPONSE
+[17:22:26] Received: MSG_RESPONSE
+[17:22:27] Received: MSG_RESPONSE
+[17:22:27] Received: MSG_RESPONSE
+[17:22:28] Received: MSG_RESPONSE
+[17:22:28] Received: MSG_RESPONSE
+[17:22:28] Received: MSG_RESPONSE
+[17:22:29] Received: MSG_RESPONSE
+[17:22:29] Received: MSG_RESPONSE
+[17:22:29] Received: MSG_RESPONSE
+[17:22:30] Received: MSG_RESPONSE
+[17:22:30] Received: MSG_RESPONSE
+[17:22:30] Received: MSG_RESPONSE
+[17:22:31] Received: MSG_RESPONSE
+[17:22:31] Received: MSG_RESPONSE
+[17:22:31] Received: MSG_RESPONSE
+[17:22:31] End request block for file: /home/guignard/Documents/syncthing/guizell/Untitled.png
+[17:22:31] Begin request block for file: /home/guignard/Documents/syncthing/guizell/15.1k.txt
+[17:22:32] Received: MSG_RESPONSE
+[17:22:32] End request block for file: /home/guignard/Documents/syncthing/guizell/15.1k.txt
+[17:22:32] Begin request block for file: /home/guignard/Documents/syncthing/guizell/6.5m.txt
+[17:22:32] Received: MSG_RESPONSE
+[17:22:32] Received: MSG_RESPONSE
+[17:22:33] Received: MSG_RESPONSE
+[17:22:33] Received: MSG_RESPONSE
+[17:22:33] Received: MSG_RESPONSE
+[17:22:34] Received: MSG_RESPONSE
+[17:22:34] Received: MSG_RESPONSE
+[17:22:34] Received: MSG_RESPONSE
+[17:22:35] Received: MSG_RESPONSE
+[17:22:35] Receive all block for file: /home/guignard/Documents/syncthing/guizell/Untitled.png
+[17:22:35] Received: MSG_RESPONSE
+[17:22:35] Receive all block for file: /home/guignard/Documents/syncthing/guizell/15.1k.txt
+[17:22:35] Received: MSG_RESPONSE
+[17:22:35] Received: MSG_RESPONSE
+[17:22:36] Received: MSG_RESPONSE
+[17:22:36] Received: MSG_RESPONSE
+[17:22:36] Received: MSG_RESPONSE
+[17:22:37] Received: MSG_RESPONSE
+[17:22:37] Received: MSG_RESPONSE
+[17:22:37] Received: MSG_RESPONSE
+[17:22:38] Received: MSG_RESPONSE
+[17:22:38] Received: MSG_RESPONSE
+[17:22:38] Received: MSG_RESPONSE
+[17:22:39] Received: MSG_RESPONSE
+[17:22:39] Received: MSG_RESPONSE
+[17:22:39] Received: MSG_RESPONSE
+[17:22:40] Received: MSG_RESPONSE
+[17:22:40] Received: MSG_RESPONSE
+[17:22:40] Received: MSG_RESPONSE
+[17:22:41] Received: MSG_RESPONSE
+[17:22:41] Received: MSG_RESPONSE
+[17:22:41] Received: MSG_RESPONSE
+[17:22:42] Received: MSG_RESPONSE
+[17:22:42] Received: MSG_RESPONSE
+[17:22:42] Received: MSG_RESPONSE
+[17:22:43] Received: MSG_RESPONSE
+[17:22:43] Received: MSG_RESPONSE
+[17:22:44] Received: MSG_RESPONSE
+[17:22:44] Received: MSG_RESPONSE
+[17:22:44] Received: MSG_RESPONSE
+[17:22:45] Received: MSG_RESPONSE
+[17:22:45] Received: MSG_RESPONSE
+[17:22:45] Received: MSG_RESPONSE
+[17:22:46] Received: MSG_RESPONSE
+[17:22:46] Received: MSG_RESPONSE
+[17:22:47] Received: MSG_RESPONSE
+[17:22:47] Received: MSG_RESPONSE
+[17:22:47] Received: MSG_RESPONSE
+[17:22:48] Received: MSG_RESPONSE
+[17:22:48] Received: MSG_RESPONSE
+[17:22:49] Received: MSG_RESPONSE
+[17:22:49] Received: MSG_RESPONSE
+[17:22:49] End request block for file: /home/guignard/Documents/syncthing/guizell/6.5m.txt
+[17:22:49] Begin request block for file: /home/guignard/Documents/syncthing/guizell/105.8k.txt
+[17:22:49] Received: MSG_RESPONSE
+[17:22:49] End request block for file: /home/guignard/Documents/syncthing/guizell/105.8k.txt
+[17:22:49] Begin request block for file: /home/guignard/Documents/syncthing/guizell/151.2k.txt
+[17:22:50] Received: MSG_RESPONSE
+[17:22:51] Received: MSG_RESPONSE
+[17:22:51] End request block for file: /home/guignard/Documents/syncthing/guizell/151.2k.txt
+[17:22:51] Begin request block for file: /home/guignard/Documents/syncthing/guizell/241.9k.txt
+[17:22:51] Received: MSG_RESPONSE
+[17:22:52] Received: MSG_RESPONSE
+[17:22:52] End request block for file: /home/guignard/Documents/syncthing/guizell/241.9k.txt
+[17:22:52] Begin request block for file: /home/guignard/Documents/syncthing/guizell/725.7k.txt
+[17:22:53] Received: MSG_RESPONSE
+[17:22:54] Received: MSG_RESPONSE
+[17:22:54] Received: MSG_RESPONSE
+[17:22:54] Received: MSG_RESPONSE
+[17:22:55] Received: MSG_RESPONSE
+[17:22:55] Receive all block for file: /home/guignard/Documents/syncthing/guizell/6.5m.txt
+[17:22:55] Received: MSG_RESPONSE
+[17:22:55] End request block for file: /home/guignard/Documents/syncthing/guizell/725.7k.txt
+[17:22:55] Begin request block for file: /home/guignard/Documents/syncthing/guizell/test/6.5m.txt
+[17:22:55] Receive all block for file: /home/guignard/Documents/syncthing/guizell/105.8k.txt
+[17:22:56] Received: MSG_RESPONSE
+[17:22:56] Received: MSG_RESPONSE
+[17:22:56] Receive all block for file: /home/guignard/Documents/syncthing/guizell/151.2k.txt
+[17:22:56] Received: MSG_RESPONSE
+[17:22:56] Received: MSG_RESPONSE
+[17:22:56] Receive all block for file: /home/guignard/Documents/syncthing/guizell/241.9k.txt
+[17:22:57] Received: MSG_RESPONSE
+[17:22:57] Received: MSG_RESPONSE
+[17:22:58] Received: MSG_RESPONSE
+[17:22:58] Received: MSG_RESPONSE
+[17:22:58] Received: MSG_RESPONSE
+[17:22:58] Received: MSG_RESPONSE
+[17:22:58] Receive all block for file: /home/guignard/Documents/syncthing/guizell/725.7k.txt
+[17:22:59] Received: MSG_RESPONSE
+[17:22:59] Received: MSG_RESPONSE
+[17:23:00] Received: MSG_RESPONSE
+[17:23:00] Received: MSG_RESPONSE
+[17:23:00] Received: MSG_RESPONSE
+[17:23:01] Received: MSG_RESPONSE
+[17:23:01] Received: MSG_RESPONSE
+[17:23:02] Received: MSG_RESPONSE
+[17:23:02] Received: MSG_RESPONSE
+[17:23:02] Received: MSG_RESPONSE
+[17:23:03] Received: MSG_RESPONSE
+[17:23:03] Received: MSG_RESPONSE
+[17:23:03] Received: MSG_RESPONSE
+[17:23:04] Received: MSG_RESPONSE
+[17:23:04] Received: MSG_RESPONSE
+[17:23:04] Received: MSG_RESPONSE
+[17:23:05] Received: MSG_RESPONSE
+[17:23:05] Received: MSG_RESPONSE
+[17:23:05] Received: MSG_RESPONSE
+[17:23:06] Received: MSG_RESPONSE
+[17:23:06] Received: MSG_RESPONSE
+[17:23:06] Received: MSG_RESPONSE
+[17:23:07] Received: MSG_RESPONSE
+[17:23:07] Received: MSG_RESPONSE
+[17:23:08] Received: MSG_RESPONSE
+[17:23:08] Received: MSG_RESPONSE
+[17:23:08] Received: MSG_RESPONSE
+[17:23:09] Received: MSG_RESPONSE
+[17:23:09] Received: MSG_RESPONSE
+[17:23:09] Received: MSG_RESPONSE
+[17:23:10] Received: MSG_RESPONSE
+[17:23:11] Received: MSG_RESPONSE
+[17:23:12] Received: MSG_RESPONSE
+[17:23:12] Received: MSG_RESPONSE
+[17:23:13] Received: MSG_RESPONSE
+[17:23:14] Received: MSG_RESPONSE
+[17:23:14] Received: MSG_RESPONSE
+[17:23:15] Received: MSG_RESPONSE
+[17:23:15] Received: MSG_RESPONSE
+[17:23:15] Received: MSG_RESPONSE
+[17:23:15] End request block for file: /home/guignard/Documents/syncthing/guizell/test/6.5m.txt
+[17:23:15] Begin request block for file: /home/guignard/Documents/syncthing/guizell/hello.txt
+[17:23:16] Received: MSG_RESPONSE
+[17:23:16] End request block for file: /home/guignard/Documents/syncthing/guizell/hello.txt
+[17:23:16] Begin request block for file: /home/guignard/Documents/syncthing/guizell/test.txt
+[17:23:16] Received: MSG_RESPONSE
+[17:23:16] End request block for file: /home/guignard/Documents/syncthing/guizell/test.txt
+[17:23:17] Received: MSG_RESPONSE
+[17:23:17] Received: MSG_RESPONSE
+[17:23:18] Received: MSG_RESPONSE
+[17:23:18] Received: MSG_RESPONSE
+[17:23:18] Received: MSG_RESPONSE
+[17:23:19] Received: MSG_RESPONSE
+[17:23:19] Received: MSG_RESPONSE
+[17:23:19] Received: MSG_RESPONSE
+[17:23:19] Receive all block for file: /home/guignard/Documents/syncthing/guizell/test/6.5m.txt
+[17:23:19] Received: MSG_RESPONSE
+[17:23:19] Receive all block for file: /home/guignard/Documents/syncthing/guizell/hello.txt
+[17:23:19] Received: MSG_RESPONSE
+[17:23:19] Receive all block for file: /home/guignard/Documents/syncthing/guizell/test.txt
+[17:24:38] Received: MSG_PING
+[17:24:38] Sent: MSG_PING
+[17:26:08] Received: MSG_PING
+[17:26:08] Sent: MSG_PING
+[17:26:15] Received: MSG_INDEX_UPDATE
+Folder name:        guizell
+
+File name:          new_file.txt
+[17:26:15] Begin request block for file: /home/guignard/Documents/syncthing/guizell/new_file.txt
+[17:26:15] End request block for file: /home/guignard/Documents/syncthing/guizell/new_file.txt
+[17:26:15] Received: MSG_RESPONSE
+[17:26:15] Receive all block for file: /home/guignard/Documents/syncthing/guizell/new_file.txt
+[17:27:38] Received: MSG_PING
+[17:27:38] Sent: MSG_PING
+[17:28:08] Received: MSG_INDEX_UPDATE
+Folder name:        guizell
+
+File name:          new_file_bigger.txt
+[17:28:08] Begin request block for file: /home/guignard/Documents/syncthing/guizell/new_file_bigger.txt
+[17:28:08] End request block for file: /home/guignard/Documents/syncthing/guizell/new_file_bigger.txt
+[17:28:08] Received: MSG_RESPONSE
+[17:28:09] Received: MSG_RESPONSE
+[17:28:09] Received: MSG_RESPONSE
+[17:28:09] Received: MSG_RESPONSE
+[17:28:10] Received: MSG_RESPONSE
+[17:28:10] Received: MSG_RESPONSE
+[17:28:10] Received: MSG_RESPONSE
+[17:28:11] Received: MSG_RESPONSE
+[17:28:11] Receive all block for file: /home/guignard/Documents/syncthing/guizell/new_file_bigger.txt
+[17:28:11] Received: MSG_RESPONSE
+[17:28:11] Received: MSG_RESPONSE
+[17:29:08] Received: MSG_PING
+[17:29:08] Sent: MSG_PING
+[17:29:54] Received: MSG_PING
+[17:29:54] Sent: MSG_PING
+[17:30:51] Received: MSG_INDEX_UPDATE
+Folder name:        guizell
+
+File name:          new_file.txt
+[17:30:51] Begin request block for file: /home/guignard/Documents/syncthing/guizell/new_file.txt
+[17:30:51] End request block for file: /home/guignard/Documents/syncthing/guizell/new_file.txt
+[17:30:51] Received: MSG_RESPONSE
+[17:30:51] Receive all block for file: /home/guignard/Documents/syncthing/guizell/new_file.txt
+[17:32:08] Received: MSG_PING
+[17:32:08] Sent: MSG_PING
+[17:33:38] Received: MSG_PING
+[17:33:38] Sent: MSG_PING

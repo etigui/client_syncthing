@@ -1,0 +1,38 @@
+# Header type
+MSG_CLUSTER_CONFIG = 0
+MSG_INDEX = 1
+MSG_INDEX_UPDATE = 2
+MSG_REQUEST = 3
+MSG_RESPONSE = 4
+MSG_PING = 6
+MSG_DOWNLOAD_PROGRESS = 5
+MSG_CLOSE = 7
+MSG_HELLO = 10
+
+# Custom message length
+INT16 = 2
+INT32 = 4
+
+# Socket timeout
+SOCKET_INIT_TIMEOUT = 90
+SOCKET_WORKING_TIMOUT = None
+
+# Max block size
+MAX_BLOCK_SIZE = 131072
+
+# Type
+FILE = 0
+FOLDER = 1
+SYMLINK = 4
+
+# Max request
+MAX_QUEUE_SIZE = 10
+
+# Magic
+MAGIC_BIN = b'.\xa7\xd9\x0b'
+MAGIC_HEX = 0x2EA7D90B
+
+# Cluster conf
+CC_VALUE = b'\x10\x00'
+
+
