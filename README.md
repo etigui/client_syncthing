@@ -1,4 +1,4 @@
-<h1>Syncthing client <img src="/images/sy.png"></h1>
+<h1>Syncthing client <img src="/images/syg.png"></h1>
 
 Syncthing is a free, open-source peer-to-peer file synchronization application available for Windows, Mac, Linux, Android, Solaris, Darwin, and BSD. It can sync files between devices on a local network, or between remote devices over the Internet. Data security and data safety are built into the design of the software. In this project, we only implemented the client which can downaload file from an other Syncthing node. The client only works with Python 3.6, cause we did not check with any other version yet. The client works without LZ4 compression. We had many problem to find the right version and make it works.
 
